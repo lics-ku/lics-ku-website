@@ -8,7 +8,7 @@ node, npm은 필수입니다!
 ```js
 npm i // 필수 패키지 다운로드
 npm run dev // 로컬에서 돌려보기. localhost:3000 에서 확인 가능
-npm run build // 수정사항 문제 없이 통과되는지 확인
+npm run build // 수정사항 문제 없이 통과되는지 확인함
 ```
 
 #### 배포
