@@ -44,6 +44,8 @@ export const PHD_STUDENTS: Student[] = [
   {
     image: "/people/students/jungbum-lee.jpg",
     name: "JungBum Lee",
+    email: "felix9698@korea.ac.kr",
+    github: "https://github.com/felix9698",
     website: "https://scholar.google.co.kr/citations?user=h5rKGYAAAAAJ&hl=ko",
   },
   {
