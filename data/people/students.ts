@@ -54,6 +54,7 @@ export const PHD_STUDENTS: Student[] = [
   {
     image: "/people/students/gun-kim.jpg",
     name: "Gun Kim",
+    email: "imgunkim99@korea.ac.kr",
     github: "https://github.com/brandonkims",
   },
 ];
