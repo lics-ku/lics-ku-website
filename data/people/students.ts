@@ -51,7 +51,10 @@ export const MASTER_STUDENTS: Student[] = [
     linkedin: "https://www.linkedin.com/in/youngjinsong4090/",
   },
   {
-    name: "Seungui Byun",
+    image: "/people/students/seungeui-byun.jpg",
+    name: "Seungeui Byun",
+    email: "shoreview01@korea.ac.kr",
+    github: "https://github.com/shoreview01",
   },
   {
     name: "SeungKwan Oh",
