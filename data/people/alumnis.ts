@@ -41,6 +41,14 @@ export const ALUMNIS: Alumni[] = [
 
 export const UNDERGRADUATE_ALUMNIS: Alumni[] = [
   {
+    image: "/people/students/juseung-lee.jpg",
+    name: "Juseung Lee",
+    github: "https://github.com/gitchobo-lee",
+  },
+  {
+    name: "Sungho Jo",
+  },
+  {
     image: "/people/alumni/jaeyoung-kang.png",
     name: "Jaeyoung Kang",
     website: "https://tycheyoung.github.io/",
