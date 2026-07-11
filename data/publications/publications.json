@@ -1035,6 +1035,25 @@
       "raw": "Yun Hee Kim, Kwang Soon Kim, Sang Hyun Lee, and Kyunghi Chang, \"Standardization trends of IEEE 802.16 wireless MAN,\" NIPA Weekly Report, no. 1063, 2002"
     },
     {
+      "id": "doi:10.1109/infocom59046.2026.11571337",
+      "type": "conference",
+      "title": "Demo: Immersive Holographic Communication Framework over Free-Space Optical Link",
+      "authors": [
+        "Gun Kim",
+        "Jungbum Lee",
+        "Wookjin Lee",
+        "Seung Hyun Oh",
+        "Youngjin Song",
+        "Sang Hyun Lee"
+      ],
+      "year": 2026,
+      "venue": "IEEE INFOCOM",
+      "doi": "10.1109/infocom59046.2026.11571337",
+      "url": "https://doi.org/10.1109/infocom59046.2026.11571337",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
       "id": "legacy:conference-001",
       "type": "conference",
       "title": "Task Offloading with Large Language Models in Mobile Edge Computing",
@@ -1613,25 +1632,6 @@
       "raw": "Yun Hee Kim, Sang Hyun Lee, Byung Yang Ahn, Kwang Soon Kim, and Deuk Su Ryu, “Design and implementation of a modem analysis tool for the 3GPP,“ ETRI-CRL Joint conf., Tokyo, Japan, Aug. 2001"
     },
     {
-      "id": "doi:10.1109/infocom59046.2026.11571337",
-      "type": "journal",
-      "title": "Demo: Immersive Holographic Communication Framework over Free-Space Optical Link",
-      "authors": [
-        "Gun Kim",
-        "J.M. LEE",
-        "Wookjin Lee",
-        "S K Oh",
-        "Youngjin Song",
-        "Sang Hyun Lee"
-      ],
-      "year": 2026,
-      "venue": null,
-      "doi": "10.1109/infocom59046.2026.11571337",
-      "url": "https://doi.org/10.1109/infocom59046.2026.11571337",
-      "status": "pending",
-      "source": "openalex"
-    },
-    {
       "id": "doi:10.1109/tmc.2025.3640244",
       "type": "journal",
       "title": "Autonomous Task Offloading of Vehicular Edge Computing With Parallel Computation Queues",
@@ -1646,7 +1646,7 @@
       "venue": "IEEE Transactions on Mobile Computing",
       "doi": "10.1109/tmc.2025.3640244",
       "url": "https://doi.org/10.1109/tmc.2025.3640244",
-      "status": "pending",
+      "status": "verified",
       "source": "openalex"
     },
     {
@@ -1662,7 +1662,7 @@
       "venue": "IEEE Internet of Things Journal",
       "doi": "10.1109/jiot.2025.3605923",
       "url": "https://doi.org/10.1109/jiot.2025.3605923",
-      "status": "pending",
+      "status": "verified",
       "source": "openalex"
     },
     {
@@ -1673,14 +1673,13 @@
         "Hee Soo Kim",
         "Yumi Jang",
         "Sang Hyun Lee",
-        "Seongcheol Kim",
         "Seongcheol Kim"
       ],
       "year": 2025,
       "venue": "Telecommunications Policy",
       "doi": "10.1016/j.telpol.2025.102931",
       "url": "https://doi.org/10.1016/j.telpol.2025.102931",
-      "status": "pending",
+      "status": "verified",
       "source": "openalex"
     }
   ],
