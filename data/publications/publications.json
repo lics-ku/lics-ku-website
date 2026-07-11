@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T00:00:00.000Z",
+  "updatedAt": "2026-07-11T11:07:28.237Z",
   "papers": [
     {
       "id": "legacy:book-chapter-001",
@@ -1494,6 +1494,77 @@
       "status": "verified",
       "source": "legacy",
       "raw": "Yun Hee Kim, Sang Hyun Lee, Byung Yang Ahn, Kwang Soon Kim, and Deuk Su Ryu, “Design and implementation of a modem analysis tool for the 3GPP,“ ETRI-CRL Joint conf., Tokyo, Japan, Aug. 2001"
+    },
+    {
+      "id": "doi:10.1109/infocom59046.2026.11571337",
+      "type": "journal",
+      "title": "Demo: Immersive Holographic Communication Framework over Free-Space Optical Link",
+      "authors": [
+        "Gun Kim",
+        "J.M. LEE",
+        "Wookjin Lee",
+        "S K Oh",
+        "Youngjin Song",
+        "Sang Hyun Lee"
+      ],
+      "year": 2026,
+      "venue": null,
+      "doi": "10.1109/infocom59046.2026.11571337",
+      "url": "https://doi.org/10.1109/infocom59046.2026.11571337",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/tmc.2025.3640244",
+      "type": "journal",
+      "title": "Autonomous Task Offloading of Vehicular Edge Computing With Parallel Computation Queues",
+      "authors": [
+        "Sungho Cho",
+        "Sung Il Choi",
+        "Seung Hyun Oh",
+        "Ian P. Roberts",
+        "Sang Hyun Lee"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "doi": "10.1109/tmc.2025.3640244",
+      "url": "https://doi.org/10.1109/tmc.2025.3640244",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/jiot.2025.3605923",
+      "type": "journal",
+      "title": "A Cooperative Strategy for the Deployment of Multi-AP Coordination in IEEE 802.11 Networks",
+      "authors": [
+        "Sung Il Choi",
+        "Wookjin Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2025,
+      "venue": "IEEE Internet of Things Journal",
+      "doi": "10.1109/jiot.2025.3605923",
+      "url": "https://doi.org/10.1109/jiot.2025.3605923",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1016/j.telpol.2025.102931",
+      "type": "journal",
+      "title": "How to relieve mobile network overload from mobile over-the-top (OTT) traffic: Proposing a user-based content-sharing solution",
+      "authors": [
+        "Hee Soo Kim",
+        "Yumi Jang",
+        "Sang Hyun Lee",
+        "Seongcheol Kim",
+        "Seongcheol Kim"
+      ],
+      "year": 2025,
+      "venue": "Telecommunications Policy",
+      "doi": "10.1016/j.telpol.2025.102931",
+      "url": "https://doi.org/10.1016/j.telpol.2025.102931",
+      "status": "pending",
+      "source": "openalex"
     }
   ],
   "patents": [
