@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Sang Hyun Lee",
+    "openAlexAuthorId": "A5100460354",
+    "orcid": "0000-0001-5385-2061",
+    "institutionId": "I197347611",
+    "institutionName": "Korea University",
+    "affiliationKeywords": ["Korea University", "korea.ac.kr"],
+    "researchTitleKeywords": [
+      "wireless",
+      "communication",
+      "network",
+      "localization",
+      "internet of things",
+      "iot",
+      "vehicular",
+      "offloading",
+      "visible light",
+      "optical",
+      "edge computing",
+      "cellular",
+      "noma",
+      "signal",
+      "coding",
+      "spectrum",
+      "mobile"
+    ],
+    "identification": {
+      "checkedAt": "2026-07-11",
+      "method": "OpenAlex autocomplete 후보의 저작 제목을 레거시 제목과 정규화 비교하고, Korea University 소속 및 ORCID를 함께 대조",
+      "candidateEndpoint": "https://api.openalex.org/autocomplete/authors?q=Sang%20Hyun%20Lee",
+      "candidateWorksFetched": 160,
+      "legacyTitleMatches": 55
+    }
+  }
+]

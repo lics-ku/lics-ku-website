@@ -1,0 +1,49 @@
+name: Update publications
+
+on:
+  schedule:
+    - cron: "17 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run update:pubs
+
+      - id: pending
+        if: ${{ !cancelled() }}
+        shell: bash
+        run: |
+          {
+            echo 'body<<EOF'
+            echo '## 자동 수집된 pending 논문'
+            echo
+            git diff --unified=0 -- data/publications/publications.json |
+              grep '^+      "title":' |
+              sed -E 's/^\+      "title": "(.*)",$/- \1/' || true
+            echo
+            echo '운영자는 각 항목을 확인한 뒤 `status`를 `verified`로 변경하고 이 PR을 머지하세요.'
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/update-publications
+          delete-branch: true
+          commit-message: "chore(publications): add pending OpenAlex works"
+          title: "chore(publications): review pending OpenAlex works"
+          body: ${{ steps.pending.outputs.body }}
+          labels: publications, automated
