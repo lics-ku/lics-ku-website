@@ -63,7 +63,7 @@ const PeoplePage = () => {
           <dl className="grid grid-cols-1 gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
             <div className="flex items-center gap-2.5 text-muted-foreground">
               <MapPin className="size-4 shrink-0 text-crimson" />
-              {CONTACT.office}
+              {CONTACT.professorOffice}
             </div>
             <div className="flex items-center gap-2.5 text-muted-foreground">
               <Phone className="size-4 shrink-0 text-crimson" />

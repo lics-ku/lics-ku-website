@@ -49,7 +49,10 @@ const ContactPage = () => {
                       </span>
                     ))}
                     <span className="mt-1 block text-foreground">
-                      {CONTACT.office}
+                      Office · {CONTACT.professorOffice}
+                    </span>
+                    <span className="block text-foreground">
+                      Lab · {CONTACT.labRoom}
                     </span>
                   </dd>
                 </div>
@@ -81,12 +84,6 @@ const ContactPage = () => {
                       className="link-crimson w-fit"
                     >
                       {CONTACT.professorEmail}
-                    </a>
-                    <a
-                      href={`mailto:${CONTACT.labEmail}`}
-                      className="link-crimson w-fit"
-                    >
-                      {CONTACT.labEmail}
                     </a>
                   </dd>
                 </div>

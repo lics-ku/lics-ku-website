@@ -1,20 +1,19 @@
 /**
  * Single source of truth for the lab's real contact details.
  *
- * Values are taken from the professor page (`data/people/professor` context) and
- * Korea University's public address. The previous footer phone (+82-2-880-1234)
- * was a placeholder and has been dropped in favour of the professor's line.
- * See OPEN_QUESTION notes for the office-room discrepancy (#407 vs. 534).
+ * Confirmed by the lab (2026-07): professor office is Engineering Building
+ * Room 407, the student lab is New Engineering Hall Room 534, and the
+ * representative email is the professor's address.
  */
 export const CONTACT = {
   labName: "Lab for Informatics, Communications, and Systems",
   professor: "Prof. Sang Hyun Lee",
   school: "School of Electrical Engineering, Korea University",
-  office: "Engineering Building, Room 407",
+  professorOffice: "Engineering Building (공학관), Room 407",
+  labRoom: "New Engineering Hall (신공학관), Room 534",
   tel: "+82-2-3290-3218",
   fax: "+82-2-921-0544",
   professorEmail: "sanghyunlee@korea.ac.kr",
-  labEmail: "lics@korea.ac.kr",
   addressLines: [
     "Korea University",
     "145 Anam-ro, Seongbuk-gu",

@@ -57,19 +57,15 @@ export const Footer = () => {
               </div>
               <div className="flex gap-2">
                 <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
-                  Lab
+                  Office
                 </dt>
-                <dd>
-                  <a href={`mailto:${CONTACT.labEmail}`} className="link-crimson">
-                    {CONTACT.labEmail}
-                  </a>
-                </dd>
+                <dd>{CONTACT.professorOffice}</dd>
               </div>
               <div className="flex gap-2">
                 <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
-                  Room
+                  Lab
                 </dt>
-                <dd>{CONTACT.office}</dd>
+                <dd>{CONTACT.labRoom}</dd>
               </div>
             </dl>
           </div>
