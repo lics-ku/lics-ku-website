@@ -1,31 +1,70 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+
+import { HeroMedia } from "@/modules/home/_components/HeroMedia";
+
+const HERO_FACTS = [
+  "13 research directions",
+  "IEEE · Nature · Sci. Reports",
+  "Seoul, Korea",
+];
+
 export const MainHeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)] bg-blue-950 w-100vw relative">
-      <video
-        src="/hero.webm"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="w-full h-full object-cover"
-        preload="auto"
-      />
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col p-4 md:p-10 gap-4 justify-end md:justify-center">
-        <h1 className="text-white text-6xl font-bold">LICS</h1>
-        <h2 className="text-white text-2xl font-bold">
-          Lab for Informatics, Communications, and Systems
-        </h2>
-        <p className="text-white text-l whitespace-pre-line">
-          {`Our research group is led by Prof. Sang Hyun Lee in the school of
-          Electrical Engineering at Korea University.
-
-          Our research area involves a range of topics in communications,
-          learning, networking,
-          optimization, control, signal processing, information theory, system
-          theory, and embedded system development for information, materials,
-          biomedical, physics, social science, energy-related applications.`}
-        </p>
+    <section className="relative isolate overflow-hidden">
+      {/* Signature: generative signal field. Swap for footage via videoSrc. */}
+      <div className="pointer-events-none absolute inset-0 -z-10">
+        <HeroMedia />
       </div>
-    </div>
+      {/* Contrast scrims: readable text over the canvas in both themes. */}
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/85 to-background/30" />
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-t from-background via-transparent to-background/40" />
+
+      <div className="mx-auto flex min-h-[calc(100svh-4rem)] max-w-7xl flex-col justify-center px-5 py-24 sm:px-8">
+        <p className="eyebrow mb-6">
+          Korea University · School of Electrical Engineering
+        </p>
+
+        <h1 className="display max-w-4xl text-[clamp(2.75rem,8vw,6.5rem)] text-foreground">
+          Informatics,
+          <br />
+          Communications
+          <span className="text-crimson"> &amp;</span> Systems
+        </h1>
+
+        <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">
+          We study how information moves — across wireless links, sensor
+          networks, and distributed systems — and design the algorithms that let
+          those systems cooperate, learn, and scale.
+        </p>
+
+        <div className="mt-10 flex flex-wrap items-center gap-3">
+          <Link
+            href="/research"
+            className="group inline-flex items-center gap-2 rounded-full bg-crimson px-6 py-3 text-sm font-semibold text-crimson-foreground transition-transform hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            Explore research
+            <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+          </Link>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
+            Join the lab
+          </Link>
+        </div>
+
+        <dl className="mt-16 flex flex-wrap gap-x-10 gap-y-4 border-t border-border pt-6">
+          {HERO_FACTS.map((fact) => (
+            <dd
+              key={fact}
+              className="font-mono text-[0.72rem] uppercase tracking-[0.14em] text-muted-foreground"
+            >
+              {fact}
+            </dd>
+          ))}
+        </dl>
+      </div>
+    </section>
   );
 };

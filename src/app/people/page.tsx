@@ -1,81 +1,108 @@
 import Image from "next/image";
+import { Mail, MapPin, Phone, Printer } from "lucide-react";
+
 import {
   PROFESSOR_EDUCATION,
   PROFESSOR_EXPERIENCES,
 } from "@data/people/professor";
+import { CONTACT } from "@/constants/contact";
 
-/**
- * Professor Page
- */
+type TimelineItem = { title: string; date: string; institution: string };
+
+const Timeline = ({ items }: { items: TimelineItem[] }) => (
+  <ol className="flex flex-col">
+    {items.map((item) => (
+      <li
+        key={item.title}
+        className="grid grid-cols-1 gap-1 border-l border-border py-4 pl-6 sm:grid-cols-[130px_1fr] sm:gap-6"
+      >
+        <span className="font-mono text-xs tracking-wide text-crimson">
+          {item.date}
+        </span>
+        <span className="text-sm leading-relaxed text-foreground">
+          {item.title}
+        </span>
+      </li>
+    ))}
+  </ol>
+);
+
 const PeoplePage = () => {
   return (
-    <div className="flex flex-col gap-10 h-full w-full">
-      <div className="flex flex-col md:flex-row gap-10 w-full items-center w-full">
-        <Image
-          src={"/people/professor.jpg"}
-          alt="professor"
-          width={200}
-          height={300}
-          className="rounded-lg"
-        />
-        <div className="flex flex-col justify-between h-full w-full gap-4">
-          <div className="flex w-full flex-col items-center md:items-start">
-            <h3 className="text-2xl font-bold">Sang Hyun Lee</h3>
-            <p className="text-lg text-gray-500 dark:text-gray-400">
-              Associate Professor
+    <div className="flex flex-col gap-16">
+      {/* Profile */}
+      <section className="grid grid-cols-1 gap-10 md:grid-cols-[260px_1fr]">
+        <div className="mx-auto w-full max-w-[260px] md:mx-0">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-muted">
+            <Image
+              src="/people/professor.jpg"
+              alt="Prof. Sang Hyun Lee"
+              fill
+              sizes="260px"
+              className="object-cover"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-2">
+            <p className="eyebrow">Principal investigator</p>
+            <h2 className="display text-4xl text-foreground">Sang Hyun Lee</h2>
+            <p className="text-lg text-muted-foreground">
+              Associate Professor · {CONTACT.school}
             </p>
           </div>
-          <div className="flex w-full flex-col items-center md:items-start">
-            <p className="text-sm text-gray-500 dark:text-gray-400 text-center md:text-left">
-              Korea University Engineering Bldg. #407
-              <br />
-              (TEL) +82-2-3290-3218
-              <br />
-              (FAX) +82-2-921-0544
-              <br />
-              sanghyunlee@korea.ac.kr
-              <br />
-              School of Electrical Engineering
-            </p>
-          </div>
+
+          <p className="max-w-2xl text-base leading-relaxed text-foreground">
+            Prof. Lee leads LICS, working across communications, learning,
+            networking, optimization, control, signal processing, and system
+            theory — with applications spanning information systems, materials,
+            biomedical engineering, physics, social science, and energy.
+          </p>
+
+          <dl className="grid grid-cols-1 gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
+            <div className="flex items-center gap-2.5 text-muted-foreground">
+              <MapPin className="size-4 shrink-0 text-crimson" />
+              {CONTACT.office}
+            </div>
+            <div className="flex items-center gap-2.5 text-muted-foreground">
+              <Phone className="size-4 shrink-0 text-crimson" />
+              {CONTACT.tel}
+            </div>
+            <div className="flex items-center gap-2.5 text-muted-foreground">
+              <Mail className="size-4 shrink-0 text-crimson" />
+              <a
+                href={`mailto:${CONTACT.professorEmail}`}
+                className="link-crimson"
+              >
+                {CONTACT.professorEmail}
+              </a>
+            </div>
+            <div className="flex items-center gap-2.5 text-muted-foreground">
+              <Printer className="size-4 shrink-0 text-crimson" />
+              {CONTACT.fax}
+            </div>
+          </dl>
         </div>
-      </div>
-      <div className="flex flex-col gap-8 w-full mb-24 px-4 md:px-0">
-        <p className="text-2xl font-bold">Experiences</p>
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-2">
-            {PROFESSOR_EXPERIENCES.map((experience) => (
-              <div className="flex gap-4 " key={experience.title}>
-                <p className="text-sm md:text-base whitespace-pre-line">
-                  •&nbsp;
-                  <span className="text-xs text-blue-800 dark:text-blue-300">
-                    {experience.date}
-                  </span>
-                  &nbsp;&nbsp;{experience.title}
-                </p>
-              </div>
-            ))}
-          </div>
+      </section>
+
+      {/* Experience & Education */}
+      <section className="grid grid-cols-1 gap-12 lg:grid-cols-2">
+        <div className="flex flex-col gap-6">
+          <h3 className="text-xl font-bold tracking-tight">Experience</h3>
+          <Timeline items={PROFESSOR_EXPERIENCES} />
         </div>
-        <p className="text-2xl font-bold">Education</p>
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-2">
-            {PROFESSOR_EDUCATION.map((education) => (
-              <div className="flex gap-4" key={education.title}>
-                <p className="text-sm md:text-base">
-                  •&nbsp;
-                  <span className="text-xs text-blue-800 dark:text-blue-300">
-                    {education.date}
-                  </span>
-                  &nbsp;&nbsp;
-                  {education.title},&nbsp;
-                  {education.institution}
-                </p>
-              </div>
-            ))}
-          </div>
+        <div className="flex flex-col gap-6">
+          <h3 className="text-xl font-bold tracking-tight">Education</h3>
+          <Timeline
+            items={PROFESSOR_EDUCATION.map((e) => ({
+              title: `${e.title}, ${e.institution}`,
+              date: e.date,
+              institution: e.institution,
+            }))}
+          />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

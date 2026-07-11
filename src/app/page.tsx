@@ -1,13 +1,15 @@
 import { MainHeroSection } from "@/modules/home/MainHeroSection";
-import { NotificationSection } from "@/modules/home/NotificationSection";
 import { TopResearchSection } from "@/modules/home/TopResearchSection";
+import { NotificationSection } from "@/modules/home/NotificationSection";
+import { PeopleCtaSection } from "@/modules/home/PeopleCtaSection";
 
-export default async function Home() {
+export default function Home() {
   return (
-    <div className="w-full">
+    <>
       <MainHeroSection />
       <TopResearchSection />
       <NotificationSection />
-    </div>
+      <PeopleCtaSection />
+    </>
   );
 }

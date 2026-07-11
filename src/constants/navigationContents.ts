@@ -24,4 +24,8 @@ export const DEFAULT_NAVIGATION_ITEMS: NavigationItem[] = [
     label: "People",
     url: "/people",
   },
+  {
+    label: "Contact",
+    url: "/contact",
+  },
 ];

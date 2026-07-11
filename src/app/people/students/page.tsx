@@ -4,20 +4,56 @@ import {
   UNDERGRADUATE_STUDENTS,
   Student,
 } from "@data/index";
+import { Reveal } from "@/components/Reveal";
 import { StudentCard } from "@/modules/people/StudentCard";
+
+const StudentGrid = ({
+  title,
+  count,
+  students,
+}: {
+  title: string;
+  count: number;
+  students: Student[];
+}) => (
+  <section className="flex flex-col gap-6">
+    <div className="flex items-baseline gap-3">
+      <h2 className="text-xl font-bold tracking-tight">{title}</h2>
+      <span className="font-mono text-xs text-muted-foreground">
+        {String(count).padStart(2, "0")}
+      </span>
+    </div>
+    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      {students.map((student, idx) => (
+        <Reveal key={idx} delay={(idx % 4) * 60}>
+          <StudentCard student={student} />
+        </Reveal>
+      ))}
+    </div>
+  </section>
+);
 
 const StudentsPage = () => {
   return (
-    <div className="flex flex-col gap-24 h-full w-full">
+    <div className="flex flex-col gap-16">
       {PHD_STUDENTS.length > 0 && (
-        <StudentGrid title="Ph.D. Candidates" students={PHD_STUDENTS} />
+        <StudentGrid
+          title="Ph.D. Candidates"
+          count={PHD_STUDENTS.length}
+          students={PHD_STUDENTS}
+        />
       )}
       {MASTER_STUDENTS.length > 0 && (
-        <StudentGrid title="Masters Candidates" students={MASTER_STUDENTS} />
+        <StudentGrid
+          title="Master's Candidates"
+          count={MASTER_STUDENTS.length}
+          students={MASTER_STUDENTS}
+        />
       )}
       {UNDERGRADUATE_STUDENTS.length > 0 && (
         <StudentGrid
-          title="Undergraduate Students"
+          title="Undergraduate Researchers"
+          count={UNDERGRADUATE_STUDENTS.length}
           students={UNDERGRADUATE_STUDENTS}
         />
       )}
@@ -26,22 +62,3 @@ const StudentsPage = () => {
 };
 
 export default StudentsPage;
-
-const StudentGrid = ({
-  title,
-  students,
-}: {
-  title: string;
-  students: Student[];
-}) => {
-  return (
-    <div className="flex flex-col gap-8 w-full">
-      <p className="text-2xl font-bold text-center md:text-left">{title}</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {students.map((student, idx) => (
-          <StudentCard key={idx} student={student} />
-        ))}
-      </div>
-    </div>
-  );
-};

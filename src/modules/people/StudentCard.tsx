@@ -1,22 +1,25 @@
 import Image from "next/image";
 
-import { Card } from "@/components/ui/card";
 import { type Student } from "@data/index";
 import { StudentLinks } from "./StudentLinks";
 
 export const StudentCard = ({ student }: { student: Student }) => {
-  const image = student.image ? student.image : "/people/default_profile.png";
+  const image = student.image ?? "/people/default_profile.png";
+
   return (
-    <Card className="p-2 md:p-4 hover:scale-101 transition-all duration-300 flex flex-row md:flex-col md:items-center gap-2">
-      <Image
-        src={image}
-        alt={student.name}
-        width={150}
-        height={150}
-        objectFit="cover"
-        className="rounded-lg md:rounded-2xl md:w-[300px] md:h-[300px]"
-      />
-      <StudentLinks student={student} />
-    </Card>
+    <div className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-colors hover:border-crimson/40">
+      <div className="relative aspect-square overflow-hidden bg-muted">
+        <Image
+          src={image}
+          alt={student.name}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+        />
+      </div>
+      <div className="p-4">
+        <StudentLinks student={student} />
+      </div>
+    </div>
   );
 };

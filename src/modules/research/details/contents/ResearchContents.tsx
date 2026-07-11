@@ -1,20 +1,18 @@
-"use client";
-
 import { Research } from "@data/index";
 import { ResearchContentCarousels } from "./ResearchContentCarousels";
 
 export const ResearchContents = ({ research }: { research: Research }) => {
   return (
-    <div className="flex flex-col gap-8">
-      {research.resources && (
+    <div className="flex flex-col gap-7">
+      {research.resources && research.resources.length > 0 && (
         <ResearchContentCarousels resources={research.resources} />
       )}
       {research.subtitle && (
-        <p className="text-lg text-gray-500 dark:text-gray-400 whitespace-pre-line font-bold">
+        <p className="font-mono text-xs uppercase tracking-[0.12em] text-crimson">
           {research.subtitle}
         </p>
       )}
-      <p className="text-lg text-gray-500 dark:text-gray-400 whitespace-pre-line">
+      <p className="whitespace-pre-line text-base leading-[1.85] text-foreground">
         {research.description}
       </p>
     </div>
