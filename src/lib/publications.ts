@@ -9,6 +9,14 @@
 import type { PublicationsData } from "@data/publications/schema";
 import { loadPublications } from "@data/publications/loadPublications";
 
+/**
+ * Review policy: auto-collected `pending` entries stay private until a person
+ * verifies them (docs/PUBLICATIONS.md). Only `verified` papers are rendered.
+ */
 export async function getPublicationsData(): Promise<PublicationsData> {
-  return loadPublications();
+  const data = loadPublications();
+  return {
+    ...data,
+    papers: data.papers.filter((paper) => paper.status === "verified"),
+  };
 }
