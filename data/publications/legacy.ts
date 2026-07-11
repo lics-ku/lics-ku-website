@@ -9,7 +9,7 @@ import type { Paper, PaperType, Patent, PublicationsData } from "./schema";
 const LEGACY_UPDATED_AT = "2026-07-11T00:00:00.000Z";
 
 function clean(value: string): string {
-  return value.replace(/\s+/g, " ").replace(/^,\s*|\s*,?$/g, "").trim();
+  return value.replace(/\s+/g, " ").replace(/^,\s*|\s*,\s*$/g, "").trim();
 }
 
 function parseAuthors(value: string): string[] {
@@ -24,7 +24,8 @@ function quotedTitle(raw: string): { authors: string[]; title: string; tail: str
   const opening = raw.search(/["“]/);
   if (opening < 0) return null;
 
-  const closingMatch = /["”]/.exec(raw.slice(opening + 1));
+  // The legacy source uses both U+201C and U+201D as a closing mark.
+  const closingMatch = /["”“]/.exec(raw.slice(opening + 1));
   if (!closingMatch || closingMatch.index === undefined) return null;
 
   const closing = opening + 1 + closingMatch.index;
@@ -89,7 +90,7 @@ function parseLegacyPaper(raw: string, type: PaperType, index: number): Paper {
 }
 
 function parseLegacyPatent(raw: string, country: Patent["country"], index: number): Patent {
-  const number = raw.match(/\b(?:EP|CN|US|CH|KR)\s?[\d,./-]+/i)?.[0] ?? null;
+  const numbers = [...raw.matchAll(/\b(?:EP|CN|US|CH|KR)\s?[\d,./-]+/gi)].map((match) => match[0]);
   const year = raw.match(/\b(?:19|20)\d{2}\b/)?.[0] ?? null;
 
   return {
@@ -97,7 +98,7 @@ function parseLegacyPatent(raw: string, country: Patent["country"], index: numbe
     title: clean(raw.split(":")[0]) || raw,
     inventors: [],
     year: year ? Number(year) : null,
-    number,
+    number: numbers.length > 0 ? numbers.join(", ") : null,
     country,
     raw,
   };

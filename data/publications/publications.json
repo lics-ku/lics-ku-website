@@ -1,13 +1,16 @@
 {
-  "updatedAt": "2026-07-11T11:07:28.237Z",
+  "updatedAt": "2026-07-11T11:19:21.105Z",
   "papers": [
     {
       "id": "legacy:book-chapter-001",
       "type": "book-chapter",
-      "title": "Jae Kyun Kwon and Sang Hyun Lee, “Modulation techniques with lighting constraints, “Visible Light Communication, Cambridge University Press, 2015",
-      "authors": [],
+      "title": "Modulation techniques with lighting constraints",
+      "authors": [
+        "Jae Kyun Kwon",
+        "Sang Hyun Lee"
+      ],
       "year": 2015,
-      "venue": null,
+      "venue": "Visible Light Communication, Cambridge University Press",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -644,10 +647,15 @@
     {
       "id": "legacy:journal-036",
       "type": "journal",
-      "title": "Sang Hyun Lee, Dong Ryul Shin, Hyun Woo Jeong, and Yun Hee Kim, “Distributed bargaining strategy for downlink virtual MIMO with device-to-device communication,“ IEEE Transactions on Communications, vol. 64, no. 4, pp. 1503-1516, April 2016",
-      "authors": [],
+      "title": "Distributed bargaining strategy for downlink virtual MIMO with device-to-device communication",
+      "authors": [
+        "Sang Hyun Lee",
+        "Dong Ryul Shin",
+        "Hyun Woo Jeong",
+        "Yun Hee Kim"
+      ],
       "year": 2016,
-      "venue": null,
+      "venue": "IEEE Transactions on Communications",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -676,10 +684,14 @@
     {
       "id": "legacy:journal-038",
       "type": "journal",
-      "title": "Illsoo Sohn, Jongho Lee, and Sang Hyun Lee, “Low-energy adaptive clustering hierarchy using affinity propagation for wireless sensor networks,“ IEEE Communications Letters, vol. 20, no. 3, pp. 558-561, March 2016",
-      "authors": [],
+      "title": "Low-energy adaptive clustering hierarchy using affinity propagation for wireless sensor networks",
+      "authors": [
+        "Illsoo Sohn",
+        "Jongho Lee",
+        "Sang Hyun Lee"
+      ],
       "year": 2016,
-      "venue": null,
+      "venue": "IEEE Communications Letters",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -771,10 +783,13 @@
     {
       "id": "legacy:journal-044",
       "type": "journal",
-      "title": "Sang Hyun Lee and Jae Kyun Kwon, “Spectral analysis of flickering effects in binary dimmable visible light communication,“ Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 1, pp. 240-245, Jan. 2015",
-      "authors": [],
+      "title": "Spectral analysis of flickering effects in binary dimmable visible light communication",
+      "authors": [
+        "Sang Hyun Lee",
+        "Jae Kyun Kwon"
+      ],
       "year": 2015,
-      "venue": null,
+      "venue": "Journal of Korean Institute of Communications and Information Sciences",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -784,10 +799,13 @@
     {
       "id": "legacy:journal-045",
       "type": "journal",
-      "title": "Sang Hyun Lee and Sriram Vishwanath, “Distributed rate allocation for network-coded multicast networks,“ IEEE Communications Letters, vol. 17, no. 11, pp. 2204-2207, Nov. 2013",
-      "authors": [],
+      "title": "Distributed rate allocation for network-coded multicast networks",
+      "authors": [
+        "Sang Hyun Lee",
+        "Sriram Vishwanath"
+      ],
       "year": 2013,
-      "venue": null,
+      "venue": "IEEE Communications Letters",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -797,10 +815,13 @@
     {
       "id": "legacy:journal-046",
       "type": "journal",
-      "title": "Sang Hyun Lee and Jae Kyun Kwon, “Distributed dimming control for LED lighting,“ Optics Express, vol. 21, no. S6, pp. A917-A932, Nov. 2013",
-      "authors": [],
+      "title": "Distributed dimming control for LED lighting",
+      "authors": [
+        "Sang Hyun Lee",
+        "Jae Kyun Kwon"
+      ],
       "year": 2013,
-      "venue": null,
+      "venue": "Optics Express",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -827,10 +848,15 @@
     {
       "id": "legacy:journal-048",
       "type": "journal",
-      "title": "Sang Hyun Lee, Manohar Shamaiah, Haris Vikalo, and Sriram Vishwanath, “Message-passing algorithms for coordinated spectrum sensing in cognitive radio networks,“ IEEE Communications Letters, vol. 17, no. 4, pp. 812-815, April 2013",
-      "authors": [],
+      "title": "Message-passing algorithms for coordinated spectrum sensing in cognitive radio networks",
+      "authors": [
+        "Sang Hyun Lee",
+        "Manohar Shamaiah",
+        "Haris Vikalo",
+        "Sriram Vishwanath"
+      ],
       "year": 2013,
-      "venue": null,
+      "venue": "IEEE Communications Letters",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -840,10 +866,15 @@
     {
       "id": "legacy:journal-049",
       "type": "journal",
-      "title": "Manohar Shamaiah, Sang Hyun Lee, Sriram Vishwanath, and Haris Vikalo, “Distributed algorithms for spectrum access in cognitive radio relay networks,“ IEEE Journal of Selected Areas on Communications, vol. 30, no. 10, pp. 1947 - 1957, Nov. 2012",
-      "authors": [],
+      "title": "Distributed algorithms for spectrum access in cognitive radio relay networks",
+      "authors": [
+        "Manohar Shamaiah",
+        "Sang Hyun Lee",
+        "Sriram Vishwanath",
+        "Haris Vikalo"
+      ],
       "year": 2012,
-      "venue": null,
+      "venue": "IEEE Journal of Selected Areas on Communications",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -853,10 +884,13 @@
     {
       "id": "legacy:journal-050",
       "type": "journal",
-      "title": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ IEEE Transactions on Very Large Scale Integrated (VLSI) Systems, vol. 20, no. 11, pp. 2054-2065, Nov. 2012",
-      "authors": [],
+      "title": "Boolean functions over nano-fabrics: improving resilience through coding",
+      "authors": [
+        "Sang Hyun Lee",
+        "Sriram Vishwanath"
+      ],
       "year": 2012,
-      "venue": null,
+      "venue": "IEEE Transactions on Very Large Scale Integrated (VLSI) Systems",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -882,10 +916,14 @@
     {
       "id": "legacy:journal-052",
       "type": "journal",
-      "title": "Manohar Shamaiah, Sang Hyun Lee, and Haris Vikalo, “Graphical models and inference on graphs in genomics: challenges of high-throughput data analysis,“ IEEE Signal Processing Magazine, vol. 29, no. 1, pp. 51-65, Jan. 2012",
-      "authors": [],
+      "title": "Graphical models and inference on graphs in genomics: challenges of high-throughput data analysis",
+      "authors": [
+        "Manohar Shamaiah",
+        "Sang Hyun Lee",
+        "Haris Vikalo"
+      ],
       "year": 2012,
-      "venue": null,
+      "venue": "IEEE Signal Processing Magazine",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -895,10 +933,14 @@
     {
       "id": "legacy:journal-053",
       "type": "journal",
-      "title": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “Belief propagation for distributed downlink beamforming in cooperative MIMO cellular networks,“ IEEE Transactions on Wireless Communications, vol. 10, no. 12, pp. 4140-4149, Dec. 2011",
-      "authors": [],
+      "title": "Belief propagation for distributed downlink beamforming in cooperative MIMO cellular networks",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee",
+        "Jeffrey Andrews"
+      ],
       "year": 2011,
-      "venue": null,
+      "venue": "IEEE Transactions on Wireless Communications",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -908,10 +950,13 @@
     {
       "id": "legacy:journal-054",
       "type": "journal",
-      "title": "Sang Hyun Lee and Kwang Soon Kim, “Design of low-rate irregular LDPC codes using trellis search,“ IEEE Transactions on Communications, vol. 57, no. 7, pp. 1994-2004, July 2009",
-      "authors": [],
+      "title": "Design of low-rate irregular LDPC codes using trellis search",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kwang Soon Kim"
+      ],
       "year": 2009,
-      "venue": null,
+      "venue": "IEEE Transactions on Communications",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -921,10 +966,14 @@
     {
       "id": "legacy:journal-055",
       "type": "journal",
-      "title": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “Design and performance of an LDPC-coded FH-OFDMA system in the uplink cellular environments,“ IEICE Transactions on Communications, vol. E89-B, no. 3, pp. 828-836, March 2006",
-      "authors": [],
+      "title": "Design and performance of an LDPC-coded FH-OFDMA system in the uplink cellular environments",
+      "authors": [
+        "Yun Hee Kim",
+        "Kwang Soon Kim",
+        "Sang Hyun Lee"
+      ],
       "year": 2006,
-      "venue": null,
+      "venue": "IEICE Transactions on Communications",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -934,10 +983,15 @@
     {
       "id": "legacy:journal-056",
       "type": "journal",
-      "title": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm based on a message-passing for the design of good LDPC codes,“ IEICE Transactions on Fundamentals of Electronics, Communications, and Computer Sciences, vol. E88-A, no. 6, pp. 1599-1604, June 2005",
-      "authors": [],
+      "title": "A cycle search algorithm based on a message-passing for the design of good LDPC codes",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kwang Soon Kim",
+        "Yun Hee Kim",
+        "Jae Young Ahn"
+      ],
       "year": 2005,
-      "venue": null,
+      "venue": "IEICE Transactions on Fundamentals of Electronics, Communications, and Computer Sciences",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -947,10 +1001,15 @@
     {
       "id": "legacy:journal-057",
       "type": "journal",
-      "title": "Kwang Soon Kim, Sang Hyun Lee, Yun Hee Kim, and Jae Young Ahn, “Design of binary LDPC code using cyclic shift matrices,“ IEE Electronics Letters, vol. 40, no. 5, pp. 325-326, March 2004",
-      "authors": [],
+      "title": "Design of binary LDPC code using cyclic shift matrices",
+      "authors": [
+        "Kwang Soon Kim",
+        "Sang Hyun Lee",
+        "Yun Hee Kim",
+        "Jae Young Ahn"
+      ],
       "year": 2004,
-      "venue": null,
+      "venue": "IEE Electronics Letters",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1205,10 +1264,14 @@
     {
       "id": "legacy:conference-014",
       "type": "conference",
-      "title": "Jinyoung Hwang, Sang Hyun Lee, and Hyosug Lee, “Channel limitation of 1-D wire random network for transparent conducting electrodes application,“ IEEE NMDC, Anchorage, AK., Sept. 2015",
-      "authors": [],
+      "title": "Channel limitation of 1-D wire random network for transparent conducting electrodes application",
+      "authors": [
+        "Jinyoung Hwang",
+        "Sang Hyun Lee",
+        "Hyosug Lee"
+      ],
       "year": 2015,
-      "venue": null,
+      "venue": "IEEE NMDC",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1218,10 +1281,15 @@
     {
       "id": "legacy:conference-015",
       "type": "conference",
-      "title": "Sang Hyun Lee, Manohar Shamaiah, Sriram Vishwanath and Haris Vikalo, “A message-passing algorithm for spectrum access in cognitive radio relay networks,“ Asilomar conference, Pacific Cove, CA., Nov. 2011",
-      "authors": [],
+      "title": "A message-passing algorithm for spectrum access in cognitive radio relay networks",
+      "authors": [
+        "Sang Hyun Lee",
+        "Manohar Shamaiah",
+        "Sriram Vishwanath",
+        "Haris Vikalo"
+      ],
       "year": 2011,
-      "venue": null,
+      "venue": "Asilomar conference",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1266,10 +1334,14 @@
     {
       "id": "legacy:conference-018",
       "type": "conference",
-      "title": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “A graphical model approach to downlink cooperative MIMO systems,“ GLOBECOM, Miami, FL., Dec. 2010",
-      "authors": [],
+      "title": "A graphical model approach to downlink cooperative MIMO systems",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee",
+        "Jeffrey Andrews"
+      ],
       "year": 2010,
-      "venue": null,
+      "venue": "GLOBECOM",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1332,10 +1404,14 @@
     {
       "id": "legacy:conference-022",
       "type": "conference",
-      "title": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Further results on message-passing algorithms for motif finding,“ ICASSP, Dallas, TX., Mar. 2010",
-      "authors": [],
+      "title": "Further results on message-passing algorithms for motif finding",
+      "authors": [
+        "Sang Hyun Lee",
+        "Haris Vikalo",
+        "Sriram Vishwanath"
+      ],
       "year": 2010,
-      "venue": null,
+      "venue": "ICASSP",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1345,10 +1421,13 @@
     {
       "id": "legacy:conference-023",
       "type": "conference",
-      "title": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ ITW, Cairo, Egypt, Jan. 2010",
-      "authors": [],
+      "title": "Boolean functions over nano-fabrics: improving resilience through coding",
+      "authors": [
+        "Sang Hyun Lee",
+        "Sriram Vishwanath"
+      ],
       "year": 2010,
-      "venue": null,
+      "venue": "ITW",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1376,10 +1455,14 @@
     {
       "id": "legacy:conference-025",
       "type": "conference",
-      "title": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Message-passing for motif finding,“ GENSIPS, Minneapolis, MN., May 2009",
-      "authors": [],
+      "title": "Message-passing for motif finding",
+      "authors": [
+        "Sang Hyun Lee",
+        "Haris Vikalo",
+        "Sriram Vishwanath"
+      ],
       "year": 2009,
-      "venue": null,
+      "venue": "GENSIPS",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1389,10 +1472,14 @@
     {
       "id": "legacy:conference-026",
       "type": "conference",
-      "title": "Jery Xuan, Sang Hyun Lee, and Sriram Vishwanath, “Broadcast strategies for MISO and multiple access channels,“ PIMRC, Athens, Greece, Sept. 2007",
-      "authors": [],
+      "title": "Broadcast strategies for MISO and multiple access channels",
+      "authors": [
+        "Jery Xuan",
+        "Sang Hyun Lee",
+        "Sriram Vishwanath"
+      ],
       "year": 2007,
-      "venue": null,
+      "venue": "PIMRC",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1420,10 +1507,16 @@
     {
       "id": "legacy:conference-028",
       "type": "conference",
-      "title": "Sang Hyun Lee, Kwang Soon Kim, Jae Kyun Kwon, Yun Hee Kim, and Jae Young Ahn, “Design of an LDPC code with low error floor,“ ISIT, Adelaide, Australia, Sept. 2005",
-      "authors": [],
+      "title": "Design of an LDPC code with low error floor",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kwang Soon Kim",
+        "Jae Kyun Kwon",
+        "Yun Hee Kim",
+        "Jae Young Ahn"
+      ],
       "year": 2005,
-      "venue": null,
+      "venue": "ISIT",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1433,10 +1526,14 @@
     {
       "id": "legacy:conference-029",
       "type": "conference",
-      "title": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “On LDPC decoding for frequency hopping OFDMA cellular systems in the downlink,“ VTC-spring, Stockholm, Sweden, May 2005",
-      "authors": [],
+      "title": "On LDPC decoding for frequency hopping OFDMA cellular systems in the downlink",
+      "authors": [
+        "Yun Hee Kim",
+        "Kwang Soon Kim",
+        "Sang Hyun Lee"
+      ],
       "year": 2005,
-      "venue": null,
+      "venue": "VTC-spring",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1446,10 +1543,15 @@
     {
       "id": "legacy:conference-030",
       "type": "conference",
-      "title": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm for an LDPC code design,“ ISITA, Parma, Italy, Oct. 2004",
-      "authors": [],
+      "title": "A cycle search algorithm for an LDPC code design",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kwang Soon Kim",
+        "Yun Hee Kim",
+        "Jae Young Ahn"
+      ],
       "year": 2004,
-      "venue": null,
+      "venue": "ISITA",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1459,10 +1561,14 @@
     {
       "id": "legacy:conference-031",
       "type": "conference",
-      "title": "Sang Hyun Lee, Kwang Soon Kim, and Kyung-Hi Chang, “A trellis-based algorithm for the realization of FIR filters for multi-mode receivers,“ ISSPA, Paris, France, July 2003",
-      "authors": [],
+      "title": "A trellis-based algorithm for the realization of FIR filters for multi-mode receivers",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kwang Soon Kim",
+        "Kyung-Hi Chang"
+      ],
       "year": 2003,
-      "venue": null,
+      "venue": "ISSPA",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1472,10 +1578,15 @@
     {
       "id": "legacy:conference-032",
       "type": "conference",
-      "title": "Yun Hee Kim, Kwang Soon Kim, Sang Hyun Lee, and Kyung-Hi Chang, “An LDPC-coded spatial multiplexing OFDMA system with iterative demodulation and decoding,“ VTC-Spring, Jeju, Korea, April 2003",
-      "authors": [],
+      "title": "An LDPC-coded spatial multiplexing OFDMA system with iterative demodulation and decoding",
+      "authors": [
+        "Yun Hee Kim",
+        "Kwang Soon Kim",
+        "Sang Hyun Lee",
+        "Kyung-Hi Chang"
+      ],
       "year": 2003,
-      "venue": null,
+      "venue": "VTC-Spring",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1485,10 +1596,16 @@
     {
       "id": "legacy:conference-033",
       "type": "conference",
-      "title": "Yun Hee Kim, Sang Hyun Lee, Byung Yang Ahn, Kwang Soon Kim, and Deuk Su Ryu, “Design and implementation of a modem analysis tool for the 3GPP,“ ETRI-CRL Joint conf., Tokyo, Japan, Aug. 2001",
-      "authors": [],
+      "title": "Design and implementation of a modem analysis tool for the 3GPP",
+      "authors": [
+        "Yun Hee Kim",
+        "Sang Hyun Lee",
+        "Byung Yang Ahn",
+        "Kwang Soon Kim",
+        "Deuk Su Ryu"
+      ],
       "year": 2001,
-      "venue": null,
+      "venue": "ETRI-CRL Joint conf.",
       "doi": null,
       "url": null,
       "status": "verified",
@@ -1573,7 +1690,7 @@
       "title": "Method, apparatuses and system for switching off power of base stations within a cellular network by using message passing",
       "inventors": [],
       "year": 2013,
-      "number": "EP2806695",
+      "number": "EP2806695, CN201310553306.5",
       "country": "international",
       "raw": "Method, apparatuses and system for switching off power of base stations within a cellular network by using message passing: EP2806695 (11.15.2013), CN201310553306.5 (11.08.2013)"
     },
@@ -1582,7 +1699,7 @@
       "title": "Methods and devices for allocating resources for communications with base stations",
       "inventors": [],
       "year": 2014,
-      "number": "CN104066184",
+      "number": "CN104066184, US10,638,368",
       "country": "international",
       "raw": "Methods and devices for allocating resources for communications with base stations: CN104066184 (09.24.2014), US10,638,368 (04.28.2020)"
     },
@@ -1600,7 +1717,7 @@
       "title": "Method and apparatus with error correction for dimmable visible light communication",
       "inventors": [],
       "year": 2013,
-      "number": "CH201310180197.7",
+      "number": "CH201310180197.7, US9,136,870",
       "country": "international",
       "raw": "Method and apparatus with error correction for dimmable visible light communication: CH201310180197.7 (05.15.2013), US9,136,870 (09.15.2015)"
     },
@@ -1609,7 +1726,7 @@
       "title": "Methods of switching off power of base stations within cellular networks by using message passing, and base stations and cellular network systems using the methods",
       "inventors": [],
       "year": 2014,
-      "number": "CN104066161",
+      "number": "CN104066161, US2014/0287734",
       "country": "international",
       "raw": "Methods of switching off power of base stations within cellular networks by using message passing, and base stations and cellular network systems using the methods: CN104066161 (09.24.2014), US2014/0287734 (09.25.2014)"
     },
