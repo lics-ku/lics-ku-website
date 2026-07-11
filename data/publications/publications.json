@@ -1,0 +1,1825 @@
+{
+  "updatedAt": "2026-07-11T00:00:00.000Z",
+  "papers": [
+    {
+      "id": "legacy:book-chapter-001",
+      "type": "book-chapter",
+      "title": "Jae Kyun Kwon and Sang Hyun Lee, “Modulation techniques with lighting constraints, “Visible Light Communication, Cambridge University Press, 2015",
+      "authors": [],
+      "year": 2015,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jae Kyun Kwon and Sang Hyun Lee, “Modulation techniques with lighting constraints, “Visible Light Communication, Cambridge University Press, 2015"
+    },
+    {
+      "id": "legacy:journal-001",
+      "type": "journal",
+      "title": "Wireless Interconnection Network-Enhanced (WINE) for Post-Exascale High Performance Computing",
+      "authors": [
+        "Hong Ki Kim",
+        "Yong Hun Jang",
+        "Heesoo Kim",
+        "Won Young Kang",
+        "Youngchai Ko",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Wireless Communications Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hong Ki Kim, Yong Hun Jang, Heesoo Kim, Won Young Kang, Youngchai Ko, and Sang Hyun Lee, \"Wireless Interconnection Network-Enhanced (WINE) for Post-Exascale High Performance Computing,\" IEEE Wireless Communications Magazine, to be published, 2024"
+    },
+    {
+      "id": "legacy:journal-002",
+      "type": "journal",
+      "title": "Distributed Pilot Decontamination Enhancing Link Reliability in Industrial IoT Networks",
+      "authors": [
+        "Hong Ki Kim",
+        "Sunho Kim",
+        "Yoon Ku Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Internet of Things Journal",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hong Ki Kim, Sunho Kim, Yoon Ku Lee, and Sang Hyun Lee, \"Distributed Pilot Decontamination Enhancing Link Reliability in Industrial IoT Networks,\" IEEE Internet of Things Journal, early access, 2024"
+    },
+    {
+      "id": "legacy:journal-003",
+      "type": "journal",
+      "title": "Distributed Task Offloading in Mobile-Edge Computing With Virtual Machines",
+      "authors": [
+        "Hongju Lee",
+        "Sung Il Choi",
+        "Sang Hyun Lee",
+        "Mérouane Debbah",
+        "Inkyu Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Internet of Things Journal",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hongju Lee, Sung Il Choi, Sang Hyun Lee, Mérouane Debbah, Inkyu Lee, \"Distributed Task Offloading in Mobile-Edge Computing With Virtual Machines,\" IEEE Internet of Things Journal, vol. 11, no. 13, pp. 24083-24097, July 2024"
+    },
+    {
+      "id": "legacy:journal-004",
+      "type": "journal",
+      "title": "Examining Spatiotemporal Crowdsensing and Caching for population-dynamic OTT Content Delivery",
+      "authors": [
+        "Hee Soo Kim",
+        "Yumi Jang",
+        "Yun Jae Choi",
+        "Hong Ki Kim",
+        "Seongcheol Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "Nature Portfolio Scientific Reports",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hee Soo Kim, Yumi Jang, Yun Jae Choi, Hong Ki Kim, Seongcheol Kim, and Sang Hyun Lee, \"Examining Spatiotemporal Crowdsensing and Caching for population-dynamic OTT Content Delivery,\" Nature Portfolio Scientific Reports, vol.14, Jun. 2024"
+    },
+    {
+      "id": "legacy:journal-005",
+      "type": "journal",
+      "title": "Machine Learning-Aided Cooperative Localization under Dense Urban Environment",
+      "authors": [
+        "Hoon Lee",
+        "Hong Ki Kim",
+        "Seung Hyun Oh",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Vehicular Technology Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Hong Ki Kim, Seung Hyun Oh, and Sang Hyun Lee, \"Machine Learning-Aided Cooperative Localization under Dense Urban Environment,\" IEEE Vehicular Technology Magazine, vol.19, pp. 78-89, Apr. 2024"
+    },
+    {
+      "id": "legacy:journal-006",
+      "type": "journal",
+      "title": "Distributed Hybrid NOMA/OMA User Allocation for Wireless IoT Networks",
+      "authors": [
+        "Wookjin Lee",
+        "Sung Il Choi",
+        "Yong Hun Jang",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Internet of Things Journal",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Wookjin Lee, Sung Il Choi, Yong Hun Jang, Sang Hyun Lee, \"Distributed Hybrid NOMA/OMA User Allocation for Wireless IoT Networks,\" IEEE Internet of Things Journal, vol. 11, no. 3, pp. 5316-5330, Feb. 2024"
+    },
+    {
+      "id": "legacy:journal-007",
+      "type": "journal",
+      "title": "Measuring Optokinetic Reflex and Vestibulo-Ocular Reflex in Unilateral Vestibular Organ Damage Model of Zebrafish",
+      "authors": [
+        "Kang Hyeon Lim",
+        "Hong Ki Kim",
+        "Saemi Park",
+        "Eunjung Han",
+        "Insik Song",
+        "Hee Soo Yoon",
+        "Jaeyoung Kim",
+        "Yunkyoung Lee",
+        "Yong Hun Jang",
+        "Yoon Chan Rah",
+        "Sang Hyun Lee",
+        "June Choi"
+      ],
+      "year": 2024,
+      "venue": "Springer Journal of the Association for Research in Otolaryngology",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Kang Hyeon Lim, Hong Ki Kim, Saemi Park, Eunjung Han, Insik Song, Hee Soo Yoon, Jaeyoung Kim, Yunkyoung Lee, Yong Hun Jang, Yoon Chan Rah, Sang Hyun Lee, and June Choi, \"Measuring Optokinetic Reflex and Vestibulo-Ocular Reflex in Unilateral Vestibular Organ Damage Model of Zebrafish,\" Springer Journal of the Association for Research in Otolaryngology, vol.25, pp. 167-177, Feb. 2024"
+    },
+    {
+      "id": "legacy:journal-008",
+      "type": "journal",
+      "title": "An optical implant for biotelemetry: design, in vivo verification, and challenges",
+      "authors": [
+        "Illsoo Sohn",
+        "Muhammad Fithratur Rahman",
+        "Yong Hun Jang",
+        "Sang Hyun Lee"
+      ],
+      "year": 2022,
+      "venue": "IEEE Communications Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn, Muhammad Fithratur Rahman, Yong Hun Jang, and Sang Hyun Lee, \"An optical implant for biotelemetry: design, in vivo verification, and challenges,\" IEEE Communications Magazine, vol. 60, no. 6, pp. 50-56, Jun. 2022"
+    },
+    {
+      "id": "legacy:journal-009",
+      "type": "journal",
+      "title": "Message-Passing-Based Joint User Association and Time Allocation for Wireless Powered Communication Networks",
+      "authors": [
+        "Hongju Lee",
+        "Jihwan Moon",
+        "Changick Song",
+        "Sang Hyun Lee",
+        "I. Lee"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hongju Lee, Jihwan Moon, Changick Song, Sang Hyun Lee, and I. Lee, \"Message-Passing-Based Joint User Association and Time Allocation for Wireless Powered Communication Networks,\" IEEE Transactions on Wireless Communications, vol. 21, no. 1, pp. 34-47, Jan. 2022"
+    },
+    {
+      "id": "legacy:journal-010",
+      "type": "journal",
+      "title": "Bit Error Probability Performance of Binary Dimmable Visible Light Communication Systems",
+      "authors": [
+        "Sang Hyun Lee",
+        "Minsu Zhang",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Minsu Zhang, and Jae Kyun Kwon, \"Bit Error Probability Performance of Binary Dimmable Visible Light Communication Systems,\" IEEE Transactions on Vehicular Technology, vol. 70, no. 9, pp. 9118-9131, Sept. 2021"
+    },
+    {
+      "id": "legacy:journal-011",
+      "type": "journal",
+      "title": "On Signal Quality Measures in Dimmable Visible Light Communications: Definitions and Conversions",
+      "authors": [
+        "Sang Hyun Lee",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2021,
+      "venue": "IEEE Wireless Communications Letters",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, and Jae Kyun Kwon, \"On Signal Quality Measures in Dimmable Visible Light Communications: Definitions and Conversions,\" IEEE Wireless Communications Letters, vol. 10, no. 10, pp. 2220-2224, Oct. 2021"
+    },
+    {
+      "id": "legacy:journal-012",
+      "type": "journal",
+      "title": "Learning Autonomy in Management of Wireless Random Networks",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Sang Hyun Lee, and Tony Q. S. Quek, \"Learning Autonomy in Management of Wireless Random Networks,\" IEEE Transactions on Wireless Communications, vol. 20, no. 12, pp. 8039-8053, Dec. 2021"
+    },
+    {
+      "id": "legacy:journal-013",
+      "type": "journal",
+      "title": "Belief propagation for energy efficiency maximization in wireless heterogeneous networks",
+      "authors": [
+        "Sang Hyun Lee",
+        "Mintae Kim",
+        "Hunmin Shin",
+        "Inkyu Lee"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Mintae Kim, Hunmin Shin, and Inkyu Lee, \"Belief propagation for energy efficiency maximization in wireless heterogeneous networks,\" IEEE Transactions on Wireless Communications, vol. 20, no. 1, pp. 56-68, Jan. 2021"
+    },
+    {
+      "id": "legacy:journal-014",
+      "type": "journal",
+      "title": "Vehicular localization enhancement via consensus",
+      "authors": [
+        "Hong Ki Kim",
+        "Minji Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2020,
+      "venue": "Sensors",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hong Ki Kim, Minji Kim, and Sang Hyun Lee, \"Vehicular localization enhancement via consensus,\" Sensors, vol. 20, no. 22, 6506, Nov. 2020"
+    },
+    {
+      "id": "legacy:journal-015",
+      "type": "journal",
+      "title": "Numerical characterization for electrical conductivity of two-dimensional nanocomposite systems with conducting fiber fillers",
+      "authors": [
+        "Jungmin Lee",
+        "Yesol Yun",
+        "Sang Hyun Lee",
+        "Jinyoung Hwang"
+      ],
+      "year": 2020,
+      "venue": "Materials",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jungmin Lee, Yesol Yun, Sang Hyun Lee, and Jinyoung Hwang, \"Numerical characterization for electrical conductivity of two-dimensional nanocomposite systems with conducting fiber fillers,\" Materials, vol. 13, no. 10, 2410, May 2020"
+    },
+    {
+      "id": "legacy:journal-016",
+      "type": "journal",
+      "title": "Ultra-low-power implantable medical devices: optical wireless communication approach",
+      "authors": [
+        "Illsoo Sohn",
+        "Yong Hun Jang",
+        "Sang Hyun Lee"
+      ],
+      "year": 2020,
+      "venue": "IEEE Communications Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn, Yong Hun Jang, and Sang Hyun Lee, \"Ultra-low-power implantable medical devices: optical wireless communication approach,\" IEEE Communications Magazine, vol. 58, no. 5, pp. 77-83, May 2020"
+    },
+    {
+      "id": "legacy:journal-017",
+      "type": "journal",
+      "title": "System-level spatiotemporal offloading with inter-cell mobility model for device-to-device (D2D) communication-based mobile caching in cellular network",
+      "authors": [
+        "Junman Lee",
+        "Sang Hyun Lee",
+        "Minjoong Rim",
+        "Chung G. Kang"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Junman Lee, Sang Hyun Lee, Minjoong Rim, and Chung G. Kang, \"System-level spatiotemporal offloading with inter-cell mobility model for device-to-device (D2D) communication-based mobile caching in cellular network,\" IEEE Access, vol. 8, pp. 51570-51581, March 2020"
+    },
+    {
+      "id": "legacy:journal-018",
+      "type": "journal",
+      "title": "A distributed cooperative localization strategy in vehicular-to-vehicular networks",
+      "authors": [
+        "Minji Kim",
+        "Hong Ki Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2020,
+      "venue": "Sensors",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Minji Kim, Hong Ki Kim, and Sang Hyun Lee, \"A distributed cooperative localization strategy in vehicular-to-vehicular networks,\" Sensors, vol. 20, no. 5, March 2020"
+    },
+    {
+      "id": "legacy:journal-019",
+      "type": "journal",
+      "title": "A deep learning approach to universal binary visible light communication transceiver",
+      "authors": [
+        "Hoon Lee",
+        "Tony Q. S. Quek",
+        "Sang Hyun Lee"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Tony Q. S. Quek, and Sang Hyun Lee, \"A deep learning approach to universal binary visible light communication transceiver,\" IEEE Transactions on Wireless Communications, vol. 19, no. 2, pp. 956-969, Feb. 2020"
+    },
+    {
+      "id": "legacy:journal-020",
+      "type": "journal",
+      "title": "Deep learning for distributed optimization: applications to wireless resource management",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal on Selected Areas on Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Sang Hyun Lee, and Tony Q. S. Quek, \"Deep learning for distributed optimization: applications to wireless resource management,\" IEEE Journal on Selected Areas on Communications, vol. 37, no. 10, pp. 2251-2266, Oct. 2019"
+    },
+    {
+      "id": "legacy:journal-021",
+      "type": "journal",
+      "title": "DNN-assisted cooperative localization in vehicular networks",
+      "authors": [
+        "Jewon Eom",
+        "Hyowon Kim",
+        "Sang Hyun Lee",
+        "Sunwoo Kim"
+      ],
+      "year": 2019,
+      "venue": "Energies",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jewon Eom, Hyowon Kim, Sang Hyun Lee, and Sunwoo Kim, \"DNN-assisted cooperative localization in vehicular networks,\" Energies, vol. 12, no. 14, 2758, July 2019"
+    },
+    {
+      "id": "legacy:journal-022",
+      "type": "journal",
+      "title": "Proactive eavesdropping with jamming and eavesdropping mode selection",
+      "authors": [
+        "Jihwan Moon",
+        "Sang Hyun Lee",
+        "Hoon Lee",
+        "Inkyu Lee"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jihwan Moon, Sang Hyun Lee, Hoon Lee, and Inkyu Lee, \"Proactive eavesdropping with jamming and eavesdropping mode selection,\" IEEE Transactions on Wireless Communications, vol. 18, no. 17, pp. 3726-3738, July 2019"
+    },
+    {
+      "id": "legacy:journal-023",
+      "type": "journal",
+      "title": "Modeling the electrical resistivity of polymer composites with segregated structures",
+      "authors": [
+        "Sung-Hoon Park",
+        "Jinyoung Hwang",
+        "Gyeong-Su Park",
+        "Ji-Hwan Ha",
+        "Minsu Zhang",
+        "Dongearn Kim",
+        "Dong-Jin Yun",
+        "Sangeui Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2019,
+      "venue": "Nature Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sung-Hoon Park, Jinyoung Hwang, Gyeong-Su Park, Ji-Hwan Ha, Minsu Zhang, Dongearn Kim, Dong-Jin Yun, Sangeui Lee, and Sang Hyun Lee, \"Modeling the electrical resistivity of polymer composites with segregated structures,\" Nature Communications, vol. 10, 2537, June 2019"
+    },
+    {
+      "id": "legacy:journal-024",
+      "type": "journal",
+      "title": "Deep learning framework for wireless systems: applications to optical wireless communications",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek",
+        "Inkyu Lee"
+      ],
+      "year": 2019,
+      "venue": "IEEE Communications Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Sang Hyun Lee, Tony Q. S. Quek, and Inkyu Lee, \"Deep learning framework for wireless systems: applications to optical wireless communications,\" IEEE Communications Magazine, vol. 57, no. 3, pp. 35 - 41, March 2019"
+    },
+    {
+      "id": "legacy:journal-025",
+      "type": "journal",
+      "title": "Enhanced message-passing based LEACH protocol for wireless sensor networks",
+      "authors": [
+        "Jaeyoung Kang",
+        "Illsoo Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2019,
+      "venue": "Sensors",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jaeyoung Kang, Illsoo Sohn, and Sang Hyun Lee, \"Enhanced message-passing based LEACH protocol for wireless sensor networks,\" Sensors, vol. 19, no. 1, Jan. 2019"
+    },
+    {
+      "id": "legacy:journal-026",
+      "type": "journal",
+      "title": "A message-passing approach to self-organizing internet-of-things based public safety networks",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2018,
+      "venue": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn and Sang Hyun Lee, \"A message-passing approach to self-organizing internet-of-things based public safety networks,\" IEEE Access, vol. 6, pp. 71783-71792, Nov. 2018"
+    },
+    {
+      "id": "legacy:journal-027",
+      "type": "journal",
+      "title": "Computational characterization and control of electrical conductivity of nanowire composite network under mechanical deformation",
+      "authors": [
+        "Jinyoung Hwang",
+        "Hiesang Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2018,
+      "venue": "Scientific Reports, 16617",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jinyoung Hwang, Hiesang Sohn, and Sang Hyun Lee, \"Computational characterization and control of electrical conductivity of nanowire composite network under mechanical deformation,\" Scientific Reports, 16617, 2018"
+    },
+    {
+      "id": "legacy:journal-028",
+      "type": "journal",
+      "title": "Binary signaling design for visible light communication: a deep learning framework",
+      "authors": [
+        "Hoon Lee",
+        "Inkyu Lee",
+        "Tony Q. S. Quek",
+        "Sang Hyun Lee"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Inkyu Lee, Tony Q. S. Quek, and Sang Hyun Lee, \"Binary signaling design for visible light communication: a deep learning framework,\" Optics Express, vol. 26, no. 14, pp. 18131-18142, 2018"
+    },
+    {
+      "id": "legacy:journal-029",
+      "type": "journal",
+      "title": "Deep learning based transceiver design for multi-colored VLC systems",
+      "authors": [
+        "Hoon Lee",
+        "Inkyu Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Inkyu Lee, and Sang Hyun Lee, \"Deep learning based transceiver design for multi-colored VLC systems,\" Optics Express, vol. 26, no. 5, pp. 6222-6238, 2018"
+    },
+    {
+      "id": "legacy:journal-030",
+      "type": "journal",
+      "title": "Message-passing strategy for joint user association and resource blanking in HetNets",
+      "authors": [
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, and Illsoo Sohn, \"Message-passing strategy for joint user association and resource blanking in HetNets,\" IEEE Transactions on Wireless Communications, vol. 17, no. 2, pp. 1026-1037, Feb. 2018"
+    },
+    {
+      "id": "legacy:journal-031",
+      "type": "journal",
+      "title": "Distributed scheduling using belief propagation for Internet-of-Things (IoT) networks",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2018,
+      "venue": "Peer-to-Peer Networking and Applications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn and Sang Hyun Lee, \"Distributed scheduling using belief propagation for Internet-of-Things (IoT) networks,\" Peer-to-Peer Networking and Applications, vol. 11, no. 1, pp. 152-161, Jan. 2018"
+    },
+    {
+      "id": "legacy:journal-032",
+      "type": "journal",
+      "title": "Virtual MIMO beamforming and device pairing enabled by device-to-device communications for multidevice networks",
+      "authors": [
+        "Yeonjin Jeong",
+        "Jooheum Yoon",
+        "Sang Hyun Lee",
+        "Yun Hee Kim"
+      ],
+      "year": 2017,
+      "venue": "Mobile Information Systems, 7652902",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yeonjin Jeong, Jooheum Yoon, Sang Hyun Lee, and Yun Hee Kim, \"Virtual MIMO beamforming and device pairing enabled by device-to-device communications for multidevice networks,\" Mobile Information Systems, 7652902, 2017"
+    },
+    {
+      "id": "legacy:journal-033",
+      "type": "journal",
+      "title": "Distributed energy-saving cellular network management using message-passing",
+      "authors": [
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Illsoo Sohn, \"Distributed energy-saving cellular network management using message-passing,\" IEEE Transactions on Vehicular Technology, vol. 66, no. 1, pp. 635-644, Jan. 2017"
+    },
+    {
+      "id": "legacy:journal-034",
+      "type": "journal",
+      "title": "Distributed load balancing via message-passing for heterogeneous cellular networks",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2016,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn and Sang Hyun Lee, “Distributed load balancing via message-passing for heterogeneous cellular networks,\" IEEE Transactions on Vehicular Technology, vol. 65, no. 11, pp. 9287-9298, Nov. 2016"
+    },
+    {
+      "id": "legacy:journal-035",
+      "type": "journal",
+      "title": "Collaborative crystal structure prediction",
+      "authors": [
+        "Sangheum Hwang",
+        "Jiho Yoo",
+        "Chanhee Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2016,
+      "venue": "Expert Systems with Applications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sangheum Hwang, Jiho Yoo, Chanhee Lee, and Sang Hyun Lee, \"Collaborative crystal structure prediction,\" Expert Systems with Applications, vol. 63, pp. 222-230, Nov. 2016"
+    },
+    {
+      "id": "legacy:journal-036",
+      "type": "journal",
+      "title": "Sang Hyun Lee, Dong Ryul Shin, Hyun Woo Jeong, and Yun Hee Kim, “Distributed bargaining strategy for downlink virtual MIMO with device-to-device communication,“ IEEE Transactions on Communications, vol. 64, no. 4, pp. 1503-1516, April 2016",
+      "authors": [],
+      "year": 2016,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Dong Ryul Shin, Hyun Woo Jeong, and Yun Hee Kim, “Distributed bargaining strategy for downlink virtual MIMO with device-to-device communication,“ IEEE Transactions on Communications, vol. 64, no. 4, pp. 1503-1516, April 2016"
+    },
+    {
+      "id": "legacy:journal-037",
+      "type": "journal",
+      "title": "Influence of polyvinylpyrrolidone (PVP) capping layer on silver nanowire networks: theoretical and experimental studies",
+      "authors": [
+        "Jinyoung Hwang",
+        "Youngsun Shim",
+        "Seonmi Yoon",
+        "Sang Hyun Lee",
+        "Sung-Hoon Park"
+      ],
+      "year": 2016,
+      "venue": "RSC Advances",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jinyoung Hwang, Youngsun Shim, Seonmi Yoon, Sang Hyun Lee, and Sung-Hoon Park, “Influence of polyvinylpyrrolidone (PVP) capping layer on silver nanowire networks: theoretical and experimental studies,” RSC Advances, vol. 6, no. 37, pp. 30972-30977, 2016"
+    },
+    {
+      "id": "legacy:journal-038",
+      "type": "journal",
+      "title": "Illsoo Sohn, Jongho Lee, and Sang Hyun Lee, “Low-energy adaptive clustering hierarchy using affinity propagation for wireless sensor networks,“ IEEE Communications Letters, vol. 20, no. 3, pp. 558-561, March 2016",
+      "authors": [],
+      "year": 2016,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn, Jongho Lee, and Sang Hyun Lee, “Low-energy adaptive clustering hierarchy using affinity propagation for wireless sensor networks,“ IEEE Communications Letters, vol. 20, no. 3, pp. 558-561, March 2016"
+    },
+    {
+      "id": "legacy:journal-039",
+      "type": "journal",
+      "title": "Convex optimization approach to multi-level modulation for dimmable visible light communications under LED efficiency droop",
+      "authors": [
+        "Sang Hyun Lee",
+        "Il-Kyu Park",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2016,
+      "venue": "OSA Journal of the Optical Society of Korea",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Il-Kyu Park, and Jae Kyun Kwon, \"Convex optimization approach to multi-level modulation for dimmable visible light communications under LED efficiency droop,\" OSA Journal of the Optical Society of Korea, vol. 20, no. 1, pp. 29-35, Feb. 2016"
+    },
+    {
+      "id": "legacy:journal-040",
+      "type": "journal",
+      "title": "Message-passing-based dynamic point selection for coordinated multipoint transmission",
+      "authors": [
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2015,
+      "venue": "IEEE Communications Letters",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Illsoo Sohn, “Message-passing-based dynamic point selection for coordinated multipoint transmission,” IEEE Communications Letters, vol. 19, no. 10, pp. 1850-1853, Oct. 2015"
+    },
+    {
+      "id": "legacy:journal-041",
+      "type": "journal",
+      "title": "Affinity propagation for energy-efficient BS operations in green cellular networks",
+      "authors": [
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2015,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Illsoo Sohn, “Affinity propagation for energy-efficient BS operations in green cellular networks,\" IEEE Transactions on Wireless Communications, vol. 14, no. 8, pp. 4534-4545, August 2015"
+    },
+    {
+      "id": "legacy:journal-042",
+      "type": "journal",
+      "title": "Distributed relay pairing for bandwidth exchange based cooperative forwarding",
+      "authors": [
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2015,
+      "venue": "IEEE Communications Letters",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Illsoo Sohn, “Distributed relay pairing for bandwidth exchange based cooperative forwarding,” IEEE Communications Letters, vol. 19, no. 3, pp. 459-462, March 2015"
+    },
+    {
+      "id": "legacy:journal-043",
+      "type": "journal",
+      "title": "Modulation and coding for dimmable visible light communication",
+      "authors": [
+        "Sang Hyun Lee",
+        "Sung-Yoon Jung",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2015,
+      "venue": "IEEE Communications Magazine",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Sung-Yoon Jung, and Jae Kyun Kwon, “Modulation and coding for dimmable visible light communication,” IEEE Communications Magazine, vol. 53, no. 2, pp. 136-143, Feb. 2015"
+    },
+    {
+      "id": "legacy:journal-044",
+      "type": "journal",
+      "title": "Sang Hyun Lee and Jae Kyun Kwon, “Spectral analysis of flickering effects in binary dimmable visible light communication,“ Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 1, pp. 240-245, Jan. 2015",
+      "authors": [],
+      "year": 2015,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Jae Kyun Kwon, “Spectral analysis of flickering effects in binary dimmable visible light communication,“ Journal of Korean Institute of Communications and Information Sciences, vol. 40, no. 1, pp. 240-245, Jan. 2015"
+    },
+    {
+      "id": "legacy:journal-045",
+      "type": "journal",
+      "title": "Sang Hyun Lee and Sriram Vishwanath, “Distributed rate allocation for network-coded multicast networks,“ IEEE Communications Letters, vol. 17, no. 11, pp. 2204-2207, Nov. 2013",
+      "authors": [],
+      "year": 2013,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Sriram Vishwanath, “Distributed rate allocation for network-coded multicast networks,“ IEEE Communications Letters, vol. 17, no. 11, pp. 2204-2207, Nov. 2013"
+    },
+    {
+      "id": "legacy:journal-046",
+      "type": "journal",
+      "title": "Sang Hyun Lee and Jae Kyun Kwon, “Distributed dimming control for LED lighting,“ Optics Express, vol. 21, no. S6, pp. A917-A932, Nov. 2013",
+      "authors": [],
+      "year": 2013,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Jae Kyun Kwon, “Distributed dimming control for LED lighting,“ Optics Express, vol. 21, no. S6, pp. A917-A932, Nov. 2013"
+    },
+    {
+      "id": "legacy:journal-047",
+      "type": "journal",
+      "title": "Multilevel transmission in dimmable visible light communication systems",
+      "authors": [
+        "Sang Hyun Lee",
+        "Kang-Il Ahn",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2013,
+      "venue": "IEEE/OSA Journal of Lightwave Technology",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Kang-Il Ahn, and Jae Kyun Kwon, “Multilevel transmission in dimmable visible light communication systems,\" IEEE/OSA Journal of Lightwave Technology, vol. 31, no. 20, pp. 3267-3276, Oct. 15, 2013"
+    },
+    {
+      "id": "legacy:journal-048",
+      "type": "journal",
+      "title": "Sang Hyun Lee, Manohar Shamaiah, Haris Vikalo, and Sriram Vishwanath, “Message-passing algorithms for coordinated spectrum sensing in cognitive radio networks,“ IEEE Communications Letters, vol. 17, no. 4, pp. 812-815, April 2013",
+      "authors": [],
+      "year": 2013,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Manohar Shamaiah, Haris Vikalo, and Sriram Vishwanath, “Message-passing algorithms for coordinated spectrum sensing in cognitive radio networks,“ IEEE Communications Letters, vol. 17, no. 4, pp. 812-815, April 2013"
+    },
+    {
+      "id": "legacy:journal-049",
+      "type": "journal",
+      "title": "Manohar Shamaiah, Sang Hyun Lee, Sriram Vishwanath, and Haris Vikalo, “Distributed algorithms for spectrum access in cognitive radio relay networks,“ IEEE Journal of Selected Areas on Communications, vol. 30, no. 10, pp. 1947 - 1957, Nov. 2012",
+      "authors": [],
+      "year": 2012,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Manohar Shamaiah, Sang Hyun Lee, Sriram Vishwanath, and Haris Vikalo, “Distributed algorithms for spectrum access in cognitive radio relay networks,“ IEEE Journal of Selected Areas on Communications, vol. 30, no. 10, pp. 1947 - 1957, Nov. 2012"
+    },
+    {
+      "id": "legacy:journal-050",
+      "type": "journal",
+      "title": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ IEEE Transactions on Very Large Scale Integrated (VLSI) Systems, vol. 20, no. 11, pp. 2054-2065, Nov. 2012",
+      "authors": [],
+      "year": 2012,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ IEEE Transactions on Very Large Scale Integrated (VLSI) Systems, vol. 20, no. 11, pp. 2054-2065, Nov. 2012"
+    },
+    {
+      "id": "legacy:journal-051",
+      "type": "journal",
+      "title": "Turbo code-based error correction scheme for dimmable visible light communication systems",
+      "authors": [
+        "Sang Hyun Lee",
+        "Jae Kyun Kwon"
+      ],
+      "year": 2012,
+      "venue": "IEEE Photonics Technology Letters",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Jae Kyun Kwon, “Turbo code-based error correction scheme for dimmable visible light communication systems,\" IEEE Photonics Technology Letters, vol. 24, no. 17, pp. 1463-1465, Sept. 2012"
+    },
+    {
+      "id": "legacy:journal-052",
+      "type": "journal",
+      "title": "Manohar Shamaiah, Sang Hyun Lee, and Haris Vikalo, “Graphical models and inference on graphs in genomics: challenges of high-throughput data analysis,“ IEEE Signal Processing Magazine, vol. 29, no. 1, pp. 51-65, Jan. 2012",
+      "authors": [],
+      "year": 2012,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Manohar Shamaiah, Sang Hyun Lee, and Haris Vikalo, “Graphical models and inference on graphs in genomics: challenges of high-throughput data analysis,“ IEEE Signal Processing Magazine, vol. 29, no. 1, pp. 51-65, Jan. 2012"
+    },
+    {
+      "id": "legacy:journal-053",
+      "type": "journal",
+      "title": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “Belief propagation for distributed downlink beamforming in cooperative MIMO cellular networks,“ IEEE Transactions on Wireless Communications, vol. 10, no. 12, pp. 4140-4149, Dec. 2011",
+      "authors": [],
+      "year": 2011,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “Belief propagation for distributed downlink beamforming in cooperative MIMO cellular networks,“ IEEE Transactions on Wireless Communications, vol. 10, no. 12, pp. 4140-4149, Dec. 2011"
+    },
+    {
+      "id": "legacy:journal-054",
+      "type": "journal",
+      "title": "Sang Hyun Lee and Kwang Soon Kim, “Design of low-rate irregular LDPC codes using trellis search,“ IEEE Transactions on Communications, vol. 57, no. 7, pp. 1994-2004, July 2009",
+      "authors": [],
+      "year": 2009,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Kwang Soon Kim, “Design of low-rate irregular LDPC codes using trellis search,“ IEEE Transactions on Communications, vol. 57, no. 7, pp. 1994-2004, July 2009"
+    },
+    {
+      "id": "legacy:journal-055",
+      "type": "journal",
+      "title": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “Design and performance of an LDPC-coded FH-OFDMA system in the uplink cellular environments,“ IEICE Transactions on Communications, vol. E89-B, no. 3, pp. 828-836, March 2006",
+      "authors": [],
+      "year": 2006,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “Design and performance of an LDPC-coded FH-OFDMA system in the uplink cellular environments,“ IEICE Transactions on Communications, vol. E89-B, no. 3, pp. 828-836, March 2006"
+    },
+    {
+      "id": "legacy:journal-056",
+      "type": "journal",
+      "title": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm based on a message-passing for the design of good LDPC codes,“ IEICE Transactions on Fundamentals of Electronics, Communications, and Computer Sciences, vol. E88-A, no. 6, pp. 1599-1604, June 2005",
+      "authors": [],
+      "year": 2005,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm based on a message-passing for the design of good LDPC codes,“ IEICE Transactions on Fundamentals of Electronics, Communications, and Computer Sciences, vol. E88-A, no. 6, pp. 1599-1604, June 2005"
+    },
+    {
+      "id": "legacy:journal-057",
+      "type": "journal",
+      "title": "Kwang Soon Kim, Sang Hyun Lee, Yun Hee Kim, and Jae Young Ahn, “Design of binary LDPC code using cyclic shift matrices,“ IEE Electronics Letters, vol. 40, no. 5, pp. 325-326, March 2004",
+      "authors": [],
+      "year": 2004,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Kwang Soon Kim, Sang Hyun Lee, Yun Hee Kim, and Jae Young Ahn, “Design of binary LDPC code using cyclic shift matrices,“ IEE Electronics Letters, vol. 40, no. 5, pp. 325-326, March 2004"
+    },
+    {
+      "id": "legacy:journal-058",
+      "type": "journal",
+      "title": "Standardization trends of IEEE 802.16 wireless MAN",
+      "authors": [
+        "Yun Hee Kim",
+        "Kwang Soon Kim",
+        "Sang Hyun Lee",
+        "Kyunghi Chang"
+      ],
+      "year": 2002,
+      "venue": "NIPA Weekly Report",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yun Hee Kim, Kwang Soon Kim, Sang Hyun Lee, and Kyunghi Chang, \"Standardization trends of IEEE 802.16 wireless MAN,\" NIPA Weekly Report, no. 1063, 2002"
+    },
+    {
+      "id": "legacy:conference-001",
+      "type": "conference",
+      "title": "Task Offloading with Large Language Models in Mobile Edge Computing",
+      "authors": [
+        "YoungJin Song",
+        "Wookjin Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2024,
+      "venue": "ICTC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "YoungJin Song, Wookjin Lee, and Sang Hyun Lee, \"Task Offloading with Large Language Models in Mobile Edge Computing,\" ICTC, Jeju, Korea, Oct. 2024 (Best Paper Award)"
+    },
+    {
+      "id": "legacy:conference-002",
+      "type": "conference",
+      "title": "Survey Propagation for Cell-Free Massive MIMO Pilot Assignment",
+      "authors": [
+        "Sunho Kim",
+        "Hong Ki Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2022,
+      "venue": "IEEE GC Wkshps",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sunho Kim, Hong Ki Kim, and Sang Hyun Lee, “Survey Propagation for Cell-Free Massive MIMO Pilot Assignment,” IEEE GC Wkshps, Rio de Janeiro, Brazil, Jan. 2022"
+    },
+    {
+      "id": "legacy:conference-003",
+      "type": "conference",
+      "title": "Development and Analysis of Distributed Algorithm for Hybrid Multiple Access Based User Association",
+      "authors": [
+        "Wookjin Lee",
+        "Sung Il Choi",
+        "Yong Hun Jang",
+        "Sang Hyun Lee"
+      ],
+      "year": 2022,
+      "venue": "IEEE ICC Wkshps",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Wookjin Lee, Sung Il Choi, Yong Hun Jang, and Sang Hyun Lee, \"Development and Analysis of Distributed Algorithm for Hybrid Multiple Access Based User Association,\" IEEE ICC Wkshps, Seoul, Korea, May. 2022"
+    },
+    {
+      "id": "legacy:conference-004",
+      "type": "conference",
+      "title": "Enhanced Vehicular Localization under Non-Line-of-Sight Multipath Propagation",
+      "authors": [
+        "Sung Il Choi",
+        "Hong Ki Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2021,
+      "venue": "ICTC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sung Il Choi, Hong Ki Kim, and Sang Hyun Lee, \"Enhanced Vehicular Localization under Non-Line-of-Sight Multipath Propagation,\" ICTC, Jeju, Korea, Oct. 2021"
+    },
+    {
+      "id": "legacy:conference-005",
+      "type": "conference",
+      "title": "Wireless Surveillance with Half-Duplex Monitors",
+      "authors": [
+        "Jihwan Moon",
+        "Sang Hyun Lee",
+        "Hoon Lee",
+        "Inkyu Lee"
+      ],
+      "year": 2021,
+      "venue": "IEEE TENSYMP",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jihwan Moon, Sang Hyun Lee, Hoon Lee, and Inkyu Lee, \"Wireless Surveillance with Half-Duplex Monitors,\" IEEE TENSYMP, Jeju, Korea, Aug. 2021"
+    },
+    {
+      "id": "legacy:conference-006",
+      "type": "conference",
+      "title": "Low-Power Wireless Communication for Wireless Power Transfer Device",
+      "authors": [
+        "Muhammad Fithratur Rahman",
+        "Yong Hun Jang",
+        "Sang Hyun Lee",
+        "Illsoo Sohn"
+      ],
+      "year": 2020,
+      "venue": "IEEE WPTC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Muhammad Fithratur Rahman, Yong Hun Jang, Sang Hyun Lee, and Illsoo Sohn, \"Low-Power Wireless Communication for Wireless Power Transfer Device,\" IEEE WPTC, Seoul, Korea, Nov. 2020"
+    },
+    {
+      "id": "legacy:conference-007",
+      "type": "conference",
+      "title": "A Simplified Message-Passing Strategy for Localization in Vehicular Networks",
+      "authors": [
+        "Hong Ki Kim",
+        "Minji Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2020,
+      "venue": "IEEE VTC-Spring",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hong Ki Kim, Minji Kim, and Sang Hyun Lee, \"A Simplified Message-Passing Strategy for Localization in Vehicular Networks,\" IEEE VTC-Spring, Antwerp, Belgium, May. 2020"
+    },
+    {
+      "id": "legacy:conference-008",
+      "type": "conference",
+      "title": "Joint Downlink Cell Association and Bandwidth Allocation with User Priorities in Two-Tier HetNets",
+      "authors": [
+        "Hongju Lee",
+        "Junhee Park",
+        "Sang Hyun Lee",
+        "Inkyu Lee"
+      ],
+      "year": 2020,
+      "venue": "IEEE VTC-Spring",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hongju Lee, Junhee Park, Sang Hyun Lee, and Inkyu Lee, \"Joint Downlink Cell Association and Bandwidth Allocation with User Priorities in Two-Tier HetNets,\" IEEE VTC-Spring, Antwerp, Belgium, May. 2020"
+    },
+    {
+      "id": "legacy:conference-009",
+      "type": "conference",
+      "title": "Deep Learning-Aided Binary Visible Light Communication Systems",
+      "authors": [
+        "Hoon Lee",
+        "Tony Q. S. Quek",
+        "Sang Hyun Lee"
+      ],
+      "year": 2019,
+      "venue": "IEEE GC Wkshps",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Tony Q. S. Quek, and Sang Hyun Lee, \"Deep Learning-Aided Binary Visible Light Communication Systems,\" IEEE GC Wkshps, Waikoloa, USA, Dec. 2019"
+    },
+    {
+      "id": "legacy:conference-010",
+      "type": "conference",
+      "title": "Constrained Deep Learning for Wireless Resource Management",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2019,
+      "venue": "IEEE ICC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Hoon Lee, Sang Hyun Lee, and Tony Q. S. Quek, \"Constrained Deep Learning for Wireless Resource Management,\" IEEE ICC, Shanghai, China, May. 2019"
+    },
+    {
+      "id": "legacy:conference-011",
+      "type": "conference",
+      "title": "Deep Learning-Based Proactive Eavesdropping for Wireless Surveillance",
+      "authors": [
+        "Jihwan Moon",
+        "Sang Hyun Lee",
+        "Hoon Lee",
+        "Seunghwan Baek",
+        "Inkyu Lee"
+      ],
+      "year": 2019,
+      "venue": "IEEE ICC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jihwan Moon, Sang Hyun Lee, Hoon Lee, Seunghwan Baek, and Inkyu Lee, \"Deep Learning-Based Proactive Eavesdropping for Wireless Surveillance,\" IEEE ICC, Shanghai, China, May. 2019"
+    },
+    {
+      "id": "legacy:conference-012",
+      "type": "conference",
+      "title": "Distributed Matching and Resource Sharing for Space Division Multiplexing Assisted by D2D Cooperation",
+      "authors": [
+        "Yeonjin Jeong",
+        "Jooheum Yoon",
+        "Yun Hee Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2016,
+      "venue": "IEEE ICTC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yeonjin Jeong, Jooheum Yoon, Yun Hee Kim, and Sang Hyun Lee “Distributed Matching and Resource Sharing for Space Division Multiplexing Assisted by D2D Cooperation,” IEEE ICTC, Jeju, Korea, Oct. 2016 (Best Paper Award)"
+    },
+    {
+      "id": "legacy:conference-013",
+      "type": "conference",
+      "title": "Distributed scheduling for coexistence of IoT wireless devices",
+      "authors": [
+        "Illsoo Sohn",
+        "Sang Hyun Lee"
+      ],
+      "year": 2015,
+      "venue": "IEEE ICTC",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn and Sang Hyun Lee, \"Distributed scheduling for coexistence of IoT wireless devices,\" IEEE ICTC, Jeju, Korea, Oct. 2015"
+    },
+    {
+      "id": "legacy:conference-014",
+      "type": "conference",
+      "title": "Jinyoung Hwang, Sang Hyun Lee, and Hyosug Lee, “Channel limitation of 1-D wire random network for transparent conducting electrodes application,“ IEEE NMDC, Anchorage, AK., Sept. 2015",
+      "authors": [],
+      "year": 2015,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jinyoung Hwang, Sang Hyun Lee, and Hyosug Lee, “Channel limitation of 1-D wire random network for transparent conducting electrodes application,“ IEEE NMDC, Anchorage, AK., Sept. 2015"
+    },
+    {
+      "id": "legacy:conference-015",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Manohar Shamaiah, Sriram Vishwanath and Haris Vikalo, “A message-passing algorithm for spectrum access in cognitive radio relay networks,“ Asilomar conference, Pacific Cove, CA., Nov. 2011",
+      "authors": [],
+      "year": 2011,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Manohar Shamaiah, Sriram Vishwanath and Haris Vikalo, “A message-passing algorithm for spectrum access in cognitive radio relay networks,“ Asilomar conference, Pacific Cove, CA., Nov. 2011"
+    },
+    {
+      "id": "legacy:conference-016",
+      "type": "conference",
+      "title": "Message-passing for base-calling in sequencing-by-synthesis systems",
+      "authors": [
+        "Sang Hyun Lee",
+        "Manohar Shamaiah",
+        "Haris Vikalo"
+      ],
+      "year": 2011,
+      "venue": "ICASSP",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Manohar Shamaiah and Haris Vikalo, “Message-passing for base-calling in sequencing-by-synthesis systems,\" ICASSP, Prague, Czech Rep., May 2011"
+    },
+    {
+      "id": "legacy:conference-017",
+      "type": "conference",
+      "title": "Distributed routing in networks using affinity propagation",
+      "authors": [
+        "Manohar Shamaiah",
+        "Sang Hyun Lee",
+        "Sriram Vishwanath",
+        "Haris Vikalo"
+      ],
+      "year": 2011,
+      "venue": "ICASSP",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Manohar Shamaiah, Sang Hyun Lee, Sriram Vishwanath and Haris Vikalo, “Distributed routing in networks using affinity propagation,\" ICASSP, Prague, Czech Rep., May 2011"
+    },
+    {
+      "id": "legacy:conference-018",
+      "type": "conference",
+      "title": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “A graphical model approach to downlink cooperative MIMO systems,“ GLOBECOM, Miami, FL., Dec. 2010",
+      "authors": [],
+      "year": 2010,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Illsoo Sohn, Sang Hyun Lee, and Jeffrey Andrews, “A graphical model approach to downlink cooperative MIMO systems,“ GLOBECOM, Miami, FL., Dec. 2010"
+    },
+    {
+      "id": "legacy:conference-019",
+      "type": "conference",
+      "title": "Inference of gene-regulatory networks using message-passing algorithms",
+      "authors": [
+        "Manohar Shamaiah",
+        "Sang Hyun Lee",
+        "Haris Vikalo"
+      ],
+      "year": 2010,
+      "venue": "GENSIPS",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Manohar Shamaiah, Sang Hyun Lee, and Haris Vikalo, “Inference of gene-regulatory networks using message-passing algorithms,\" GENSIPS, Cold Spring Harbor, NY., Nov. 2010"
+    },
+    {
+      "id": "legacy:conference-020",
+      "type": "conference",
+      "title": "Optimal estimation for microarrays via global optimization",
+      "authors": [
+        "Sang Hyun Lee",
+        "Manohar Shamaiah",
+        "Haris Vikalo"
+      ],
+      "year": 2010,
+      "venue": "Asilomar conference",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Manohar Shamaiah, and Haris Vikalo “Optimal estimation for microarrays via global optimization,\" Asilomar conference, Pacific Cove, CA., Nov. 2010"
+    },
+    {
+      "id": "legacy:conference-021",
+      "type": "conference",
+      "title": "Structured dirty-paper coding using low-density lattices",
+      "authors": [
+        "Sang Hyun Lee",
+        "Ankit Ghiya",
+        "Sriram Vishwanath",
+        "Sung Soo Hwang",
+        "Sunghwan Kim"
+      ],
+      "year": 2010,
+      "venue": "ICASSP",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Ankit Ghiya, Sriram Vishwanath, Sung Soo Hwang, and Sunghwan Kim, “Structured dirty-paper coding using low-density lattices,\" ICASSP, Dallas, TX., Mar. 2010"
+    },
+    {
+      "id": "legacy:conference-022",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Further results on message-passing algorithms for motif finding,“ ICASSP, Dallas, TX., Mar. 2010",
+      "authors": [],
+      "year": 2010,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Further results on message-passing algorithms for motif finding,“ ICASSP, Dallas, TX., Mar. 2010"
+    },
+    {
+      "id": "legacy:conference-023",
+      "type": "conference",
+      "title": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ ITW, Cairo, Egypt, Jan. 2010",
+      "authors": [],
+      "year": 2010,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee and Sriram Vishwanath, “Boolean functions over nano-fabrics: improving resilience through coding,“ ITW, Cairo, Egypt, Jan. 2010"
+    },
+    {
+      "id": "legacy:conference-024",
+      "type": "conference",
+      "title": "Distributed rate allocation for network-coded systems",
+      "authors": [
+        "Amin Jafarian",
+        "Sang Hyun Lee",
+        "Sriram Vishwanath",
+        "Christina Fragouli"
+      ],
+      "year": 2009,
+      "venue": "SECON",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Amin Jafarian, Sang Hyun Lee, Sriram Vishwanath, and Christina Fragouli, “Distributed rate allocation for network-coded systems,\" SECON, Rome, Italy, June 2009"
+    },
+    {
+      "id": "legacy:conference-025",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Message-passing for motif finding,“ GENSIPS, Minneapolis, MN., May 2009",
+      "authors": [],
+      "year": 2009,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Haris Vikalo, and Sriram Vishwanath, “Message-passing for motif finding,“ GENSIPS, Minneapolis, MN., May 2009"
+    },
+    {
+      "id": "legacy:conference-026",
+      "type": "conference",
+      "title": "Jery Xuan, Sang Hyun Lee, and Sriram Vishwanath, “Broadcast strategies for MISO and multiple access channels,“ PIMRC, Athens, Greece, Sept. 2007",
+      "authors": [],
+      "year": 2007,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Jery Xuan, Sang Hyun Lee, and Sriram Vishwanath, “Broadcast strategies for MISO and multiple access channels,“ PIMRC, Athens, Greece, Sept. 2007"
+    },
+    {
+      "id": "legacy:conference-027",
+      "type": "conference",
+      "title": "Use of dynamic programming for the design of irregular LDPC codes",
+      "authors": [
+        "Sang Hyun Lee",
+        "Duhee Rhee",
+        "Ilmu Byun",
+        "Kwang Soon Kim"
+      ],
+      "year": 2006,
+      "venue": "ISITA",
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Duhee Rhee, Ilmu Byun, and Kwang Soon Kim, “Use of dynamic programming for the design of irregular LDPC codes,\" ISITA, Seoul, Korea, Oct. 2006"
+    },
+    {
+      "id": "legacy:conference-028",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Kwang Soon Kim, Jae Kyun Kwon, Yun Hee Kim, and Jae Young Ahn, “Design of an LDPC code with low error floor,“ ISIT, Adelaide, Australia, Sept. 2005",
+      "authors": [],
+      "year": 2005,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Kwang Soon Kim, Jae Kyun Kwon, Yun Hee Kim, and Jae Young Ahn, “Design of an LDPC code with low error floor,“ ISIT, Adelaide, Australia, Sept. 2005"
+    },
+    {
+      "id": "legacy:conference-029",
+      "type": "conference",
+      "title": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “On LDPC decoding for frequency hopping OFDMA cellular systems in the downlink,“ VTC-spring, Stockholm, Sweden, May 2005",
+      "authors": [],
+      "year": 2005,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yun Hee Kim, Kwang Soon Kim, and Sang Hyun Lee, “On LDPC decoding for frequency hopping OFDMA cellular systems in the downlink,“ VTC-spring, Stockholm, Sweden, May 2005"
+    },
+    {
+      "id": "legacy:conference-030",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm for an LDPC code design,“ ISITA, Parma, Italy, Oct. 2004",
+      "authors": [],
+      "year": 2004,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Kwang Soon Kim, Yun Hee Kim, and Jae Young Ahn, “A cycle search algorithm for an LDPC code design,“ ISITA, Parma, Italy, Oct. 2004"
+    },
+    {
+      "id": "legacy:conference-031",
+      "type": "conference",
+      "title": "Sang Hyun Lee, Kwang Soon Kim, and Kyung-Hi Chang, “A trellis-based algorithm for the realization of FIR filters for multi-mode receivers,“ ISSPA, Paris, France, July 2003",
+      "authors": [],
+      "year": 2003,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Sang Hyun Lee, Kwang Soon Kim, and Kyung-Hi Chang, “A trellis-based algorithm for the realization of FIR filters for multi-mode receivers,“ ISSPA, Paris, France, July 2003"
+    },
+    {
+      "id": "legacy:conference-032",
+      "type": "conference",
+      "title": "Yun Hee Kim, Kwang Soon Kim, Sang Hyun Lee, and Kyung-Hi Chang, “An LDPC-coded spatial multiplexing OFDMA system with iterative demodulation and decoding,“ VTC-Spring, Jeju, Korea, April 2003",
+      "authors": [],
+      "year": 2003,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yun Hee Kim, Kwang Soon Kim, Sang Hyun Lee, and Kyung-Hi Chang, “An LDPC-coded spatial multiplexing OFDMA system with iterative demodulation and decoding,“ VTC-Spring, Jeju, Korea, April 2003"
+    },
+    {
+      "id": "legacy:conference-033",
+      "type": "conference",
+      "title": "Yun Hee Kim, Sang Hyun Lee, Byung Yang Ahn, Kwang Soon Kim, and Deuk Su Ryu, “Design and implementation of a modem analysis tool for the 3GPP,“ ETRI-CRL Joint conf., Tokyo, Japan, Aug. 2001",
+      "authors": [],
+      "year": 2001,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "status": "verified",
+      "source": "legacy",
+      "raw": "Yun Hee Kim, Sang Hyun Lee, Byung Yang Ahn, Kwang Soon Kim, and Deuk Su Ryu, “Design and implementation of a modem analysis tool for the 3GPP,“ ETRI-CRL Joint conf., Tokyo, Japan, Aug. 2001"
+    }
+  ],
+  "patents": [
+    {
+      "id": "legacy:patent-international-001",
+      "title": "Method, apparatuses and system for switching off power of base stations within a cellular network by using message passing",
+      "inventors": [],
+      "year": 2013,
+      "number": "EP2806695",
+      "country": "international",
+      "raw": "Method, apparatuses and system for switching off power of base stations within a cellular network by using message passing: EP2806695 (11.15.2013), CN201310553306.5 (11.08.2013)"
+    },
+    {
+      "id": "legacy:patent-international-002",
+      "title": "Methods and devices for allocating resources for communications with base stations",
+      "inventors": [],
+      "year": 2014,
+      "number": "CN104066184",
+      "country": "international",
+      "raw": "Methods and devices for allocating resources for communications with base stations: CN104066184 (09.24.2014), US10,638,368 (04.28.2020)"
+    },
+    {
+      "id": "legacy:patent-international-003",
+      "title": "Method and apparatus for performing function by combining one or more function blocks",
+      "inventors": [],
+      "year": 2016,
+      "number": "US9,386,131",
+      "country": "international",
+      "raw": "Method and apparatus for performing function by combining one or more function blocks: US9,386,131 (07.05.2016)"
+    },
+    {
+      "id": "legacy:patent-international-004",
+      "title": "Method and apparatus with error correction for dimmable visible light communication",
+      "inventors": [],
+      "year": 2013,
+      "number": "CH201310180197.7",
+      "country": "international",
+      "raw": "Method and apparatus with error correction for dimmable visible light communication: CH201310180197.7 (05.15.2013), US9,136,870 (09.15.2015)"
+    },
+    {
+      "id": "legacy:patent-international-005",
+      "title": "Methods of switching off power of base stations within cellular networks by using message passing, and base stations and cellular network systems using the methods",
+      "inventors": [],
+      "year": 2014,
+      "number": "CN104066161",
+      "country": "international",
+      "raw": "Methods of switching off power of base stations within cellular networks by using message passing, and base stations and cellular network systems using the methods: CN104066161 (09.24.2014), US2014/0287734 (09.25.2014)"
+    },
+    {
+      "id": "legacy:patent-international-006",
+      "title": "Method of dirty paper coding using nested lattice codes",
+      "inventors": [],
+      "year": 2012,
+      "number": "US8,254,484",
+      "country": "international",
+      "raw": "Method of dirty paper coding using nested lattice codes: US8,254,484 (08.28.2012)"
+    },
+    {
+      "id": "legacy:patent-international-007",
+      "title": "Codeword automatic repeat request/decoding method and transmission/reception apparatus using feedback information",
+      "inventors": [],
+      "year": 2010,
+      "number": "US7,797,604",
+      "country": "international",
+      "raw": "Codeword automatic repeat request/decoding method and transmission/reception apparatus using feedback information: US7,797,604 (09.14.2010)"
+    },
+    {
+      "id": "legacy:patent-international-008",
+      "title": "Decoding apparatus for low-density parity-check codes using sequential decoding, and method thereof",
+      "inventors": [],
+      "year": 2009,
+      "number": "US7,590,914",
+      "country": "international",
+      "raw": "Decoding apparatus for low-density parity-check codes using sequential decoding, and method thereof: US7,590,914 (09.15.2009)"
+    },
+    {
+      "id": "legacy:patent-international-009",
+      "title": "Apparatus and method for erasure detection and soft-decision decoding in cellular system receiver",
+      "inventors": [],
+      "year": 2008,
+      "number": "US7,453,959",
+      "country": "international",
+      "raw": "Apparatus and method for erasure detection and soft-decision decoding in cellular system receiver: US7,453,959 (11.18.2008)"
+    },
+    {
+      "id": "legacy:patent-international-010",
+      "title": "Apparatus for encoding and decoding of low-density parity-check codes, and method thereof",
+      "inventors": [],
+      "year": 2008,
+      "number": "US7,395,494",
+      "country": "international",
+      "raw": "Apparatus for encoding and decoding of low-density parity-check codes, and method thereof: US7,395,494 (07.01.2008)"
+    },
+    {
+      "id": "legacy:patent-international-011",
+      "title": "Digital filter for software-defined radio system, digital intermediate frequency signal processing apparatus having the digital filter, and method thereof",
+      "inventors": [],
+      "year": 2008,
+      "number": "US7,372,927",
+      "country": "international",
+      "raw": "Digital filter for software-defined radio system, digital intermediate frequency signal processing apparatus having the digital filter, and method thereof: US7,372,927 (05.13.2008)"
+    },
+    {
+      "id": "legacy:patent-international-012",
+      "title": "Hybrid multi-user interference cancellation method and device using clustering algorithm based on dynamic programming",
+      "inventors": [],
+      "year": 2007,
+      "number": "US7,260,161",
+      "country": "international",
+      "raw": "Hybrid multi-user interference cancellation method and device using clustering algorithm based on dynamic programming: US7,260,161 (08.21.2007)"
+    },
+    {
+      "id": "legacy:patent-international-013",
+      "title": "Simplified message-passing decoder for low-density parity-check codes",
+      "inventors": [],
+      "year": 2007,
+      "number": "US7,178,081",
+      "country": "international",
+      "raw": "Simplified message-passing decoder for low-density parity-check codes: US7,178,081 (02.13.2007)"
+    },
+    {
+      "id": "legacy:patent-international-014",
+      "title": "Adaptive transmission and receiving method and device in wireless communication system with multiple antennas",
+      "inventors": [],
+      "year": 2006,
+      "number": "US7,123,887",
+      "country": "international",
+      "raw": "Adaptive transmission and receiving method and device in wireless communication system with multiple antennas: US7,123,887 (10.17.2006)"
+    },
+    {
+      "id": "legacy:patent-international-015",
+      "title": "Method and device for performing soft decision decoding on Reed-Muller codes using decision by majority",
+      "inventors": [],
+      "year": 2006,
+      "number": "US7,093,189",
+      "country": "international",
+      "raw": "Method and device for performing soft decision decoding on Reed-Muller codes using decision by majority: US7,093,189 (08.15.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-001",
+      "title": "무선 통신 방법 및 장치",
+      "inventors": [],
+      "year": 2019,
+      "number": "KR10-2029552",
+      "country": "domestic",
+      "raw": "무선 통신 방법 및 장치: KR10-2029552 (09.30.2019)"
+    },
+    {
+      "id": "legacy:patent-domestic-002",
+      "title": "이동체의 자기 위치 추정 방법 및 그 이동체",
+      "inventors": [],
+      "year": 2019,
+      "number": "KR10-2016835",
+      "country": "domestic",
+      "raw": "이동체의 자기 위치 추정 방법 및 그 이동체: KR10-2016835 (08.26.2019)"
+    },
+    {
+      "id": "legacy:patent-domestic-003",
+      "title": "무선통신시스템의 기지국 동작 제어 방법",
+      "inventors": [],
+      "year": 2015,
+      "number": "KR10-2015-1675484",
+      "country": "domestic",
+      "raw": "무선통신시스템의 기지국 동작 제어 방법: KR10-2015-1675484 (11.07.2015)"
+    },
+    {
+      "id": "legacy:patent-domestic-004",
+      "title": "OOK 방식을 이용한 정보 송수신 방법 및 장치",
+      "inventors": [],
+      "year": 2013,
+      "number": "KR10-2013-0131504",
+      "country": "domestic",
+      "raw": "OOK 방식을 이용한 정보 송수신 방법 및 장치: KR10-2013-0131504 (10.31.2013)"
+    },
+    {
+      "id": "legacy:patent-domestic-005",
+      "title": "적어도 하나 이상의 블록들을 결합하여 기능을 수행하는 방법 및 장치",
+      "inventors": [],
+      "year": 2013,
+      "number": "KR10-2013-0103431",
+      "country": "domestic",
+      "raw": "적어도 하나 이상의 블록들을 결합하여 기능을 수행하는 방법 및 장치: KR10-2013-0103431 (08.29.2013)"
+    },
+    {
+      "id": "legacy:patent-domestic-006",
+      "title": "신소재 개발을 위하여 타겟 물질을 스크리닝하는 방법 및 장치",
+      "inventors": [],
+      "year": 2013,
+      "number": "KR10-2013-0031923",
+      "country": "domestic",
+      "raw": "신소재 개발을 위하여 타겟 물질을 스크리닝하는 방법 및 장치: KR10-2013-0031923 (03.26.2013)"
+    },
+    {
+      "id": "legacy:patent-domestic-007",
+      "title": "메시지 전달을 이용하여 셀룰러 네트워크 내의 기지국들의 전원을 차단하는 방법, 이를 이용하는 기지국 및 셀룰러 네트워크 시스템",
+      "inventors": [],
+      "year": 2013,
+      "number": "KR10-2013-0030576",
+      "country": "domestic",
+      "raw": "메시지 전달을 이용하여 셀룰러 네트워크 내의 기지국들의 전원을 차단하는 방법, 이를 이용하는 기지국 및 셀룰러 네트워크 시스템: KR10-2013-0030576 (03.21.2013)"
+    },
+    {
+      "id": "legacy:patent-domestic-008",
+      "title": "기지국과의 통신을 위한 자원을 할당하는 방법 및 단말",
+      "inventors": [],
+      "year": 2020,
+      "number": "KR10-2077740",
+      "country": "domestic",
+      "raw": "기지국과의 통신을 위한 자원을 할당하는 방법 및 단말: KR10-2077740 (02.10.2020)"
+    },
+    {
+      "id": "legacy:patent-domestic-009",
+      "title": "명도 조절이 가능한 가시광 통신을 위한 오류 정정 방법 및 장치",
+      "inventors": [],
+      "year": 2019,
+      "number": "KR10-1951005",
+      "country": "domestic",
+      "raw": "명도 조절이 가능한 가시광 통신을 위한 오류 정정 방법 및 장치: KR10-1951005 (02.15.2019)"
+    },
+    {
+      "id": "legacy:patent-domestic-010",
+      "title": "셀룰러 시스템의 하향 링크 신호 생성 장치와 셀 탐색 방법 및 장치",
+      "inventors": [],
+      "year": 2007,
+      "number": "KR10-0767312",
+      "country": "domestic",
+      "raw": "셀룰러 시스템의 하향 링크 신호 생성 장치와 셀 탐색 방법 및 장치: KR10-0767312 (10.09.2007)"
+    },
+    {
+      "id": "legacy:patent-domestic-011",
+      "title": "궤환 정보를 이용한 부호어 재전송/복호 방법 및 송수신장치",
+      "inventors": [],
+      "year": 2007,
+      "number": "KR10-0734389",
+      "country": "domestic",
+      "raw": "궤환 정보를 이용한 부호어 재전송/복호 방법 및 송수신장치: KR10-0734389 (06.26.2007)"
+    },
+    {
+      "id": "legacy:patent-domestic-012",
+      "title": "LDPC 부호기 및 복호기, 및 LDPC 부호화 방법 및 복호화 방법",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0641052",
+      "country": "domestic",
+      "raw": "LDPC 부호기 및 복호기, 및 LDPC 부호화 방법 및 복호화 방법: KR10-0641052 (10.25.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-013",
+      "title": "셀룰러 시스템 수신기에서의 이레이져 검출 및 연판정복호 장치와 그 방법",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0633483",
+      "country": "domestic",
+      "raw": "셀룰러 시스템 수신기에서의 이레이져 검출 및 연판정복호 장치와 그 방법: KR10-0633483 (10.02.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-014",
+      "title": "순차적 복호를 이용한 저밀도 패리티 검사 부호의 복호장치 및 그 방법",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0594818",
+      "country": "domestic",
+      "raw": "순차적 복호를 이용한 저밀도 패리티 검사 부호의 복호장치 및 그 방법: KR10-0594818 (06.22.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-015",
+      "title": "다중 안테나 무선 통신 시스템에서의 적응 송수신 방법 및 그 장치",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0591890",
+      "country": "domestic",
+      "raw": "다중 안테나 무선 통신 시스템에서의 적응 송수신 방법 및 그 장치: KR10-0591890 (06.14.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-016",
+      "title": "저밀도 패리티 검사 부호의 부호화와 복호 장치 및 그 방법",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0550101",
+      "country": "domestic",
+      "raw": "저밀도 패리티 검사 부호의 부호화와 복호 장치 및 그 방법: KR10-0550101 (02.01.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-017",
+      "title": "소프트웨어 무선 시스템을 위한 디지털 여파기와 이를 구비한 디지털 중간 주파수 대역 신호 처리 장치 및 그 방법",
+      "inventors": [],
+      "year": 2006,
+      "number": "KR10-0542118",
+      "country": "domestic",
+      "raw": "소프트웨어 무선 시스템을 위한 디지털 여파기와 이를 구비한 디지털 중간 주파수 대역 신호 처리 장치 및 그 방법: KR10-0542118 (01.03.2006)"
+    },
+    {
+      "id": "legacy:patent-domestic-018",
+      "title": "동적 계획법 기반의 그룹화 기법을 이용한 혼합형 다중사용자 간섭 제거 방법과 그 장치",
+      "inventors": [],
+      "year": 2005,
+      "number": "KR10-0488806",
+      "country": "domestic",
+      "raw": "동적 계획법 기반의 그룹화 기법을 이용한 혼합형 다중사용자 간섭 제거 방법과 그 장치: KR10-0488806 (05.02.2005)"
+    },
+    {
+      "id": "legacy:patent-domestic-019",
+      "title": "부호 분할 다중 접속 시스템용 기지국 복조기에서의 칩 연산 장치 및 그 방법과, 그 장치를 사용한 기지국 복조기",
+      "inventors": [],
+      "year": 2004,
+      "number": "KR10-0444732",
+      "country": "domestic",
+      "raw": "부호 분할 다중 접속 시스템용 기지국 복조기에서의 칩 연산 장치 및 그 방법과, 그 장치를 사용한 기지국 복조기: KR10-0444732 (08.06.2004)"
+    },
+    {
+      "id": "legacy:patent-domestic-020",
+      "title": "통신 시스템의 모뎀 분석 장치 및 그 방법",
+      "inventors": [],
+      "year": 2004,
+      "number": "KR10-0441990",
+      "country": "domestic",
+      "raw": "통신 시스템의 모뎀 분석 장치 및 그 방법: KR10-0441990 (07.19.2004)"
+    },
+    {
+      "id": "legacy:patent-domestic-021",
+      "title": "이동 통신용 무선 기지국 시스템",
+      "inventors": [],
+      "year": 2003,
+      "number": "KR10-0413221",
+      "country": "domestic",
+      "raw": "이동 통신용 무선 기지국 시스템: KR10-0413221 (12.16.2003)"
+    }
+  ]
+}
