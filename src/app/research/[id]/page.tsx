@@ -1,11 +1,35 @@
+import type { Metadata } from "next";
+
+import { RESEARCH_LIST } from "@data/research/ResearchList";
 import { ResearchPageContents } from "@/modules/research/details/ResearchPageContents";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const research = RESEARCH_LIST.find((item) => item.id === Number(id));
+  if (!research) return { title: "Research" };
+  const description = research.description
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 155);
+  return {
+    title: research.title,
+    description,
+    openGraph: { title: research.title, description },
+  };
+}
+
+export function generateStaticParams() {
+  return RESEARCH_LIST.map((r) => ({ id: String(r.id) }));
+}
 
 const ResearchContentPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="flex max-w-[1000px] m-10">
-        <ResearchPageContents />
-      </div>
+    <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8">
+      <ResearchPageContents />
     </div>
   );
 };

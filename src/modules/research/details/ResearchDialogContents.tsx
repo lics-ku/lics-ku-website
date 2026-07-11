@@ -1,37 +1,32 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import {
-  DialogClose,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-import { RESEARCH_LIST } from "@data/research/ResearchList";
 import { useParams } from "next/navigation";
+
+import { DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { RESEARCH_LIST } from "@data/research/ResearchList";
 import { ResearchContents } from "./contents/ResearchContents";
 
 export const ResearchDialogContents = () => {
   const { id } = useParams();
-  const research = RESEARCH_LIST.find((research) => research.id === Number(id));
-  return (
-    <>
-      <DialogHeader>
-        <DialogTitle className="text-2xl font-bold mt-2 text-center">
-          {research?.title}
-        </DialogTitle>
-        <Divider />
-        <ResearchContents research={research!} />
-      </DialogHeader>
-      <DialogFooter>
-        <DialogClose asChild>
-          <Button variant="outline">닫기</Button>
-        </DialogClose>
-      </DialogFooter>
-    </>
-  );
-};
+  const research = RESEARCH_LIST.find((item) => item.id === Number(id));
 
-const Divider = () => {
-  return <div className="w-full h-[1px] bg-gray-200 dark:bg-gray-800 my-4" />;
+  if (!research) {
+    return (
+      <p className="py-8 text-center text-muted-foreground">
+        Research area not found.
+      </p>
+    );
+  }
+
+  return (
+    <div className="flex flex-col gap-6">
+      <DialogHeader className="space-y-0 text-left">
+        <DialogTitle className="display text-2xl leading-tight text-foreground sm:text-3xl">
+          {research.title}
+        </DialogTitle>
+      </DialogHeader>
+      <div className="rule" />
+      <ResearchContents research={research} />
+    </div>
+  );
 };

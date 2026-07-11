@@ -1,25 +1,43 @@
 "use client";
 
 import { useParams } from "next/navigation";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+
 import { NOTIFICATION_LIST } from "@data/home/NotificationList";
 import { NoticeContents } from "./contents/NoticeContents";
 
+const formatDate = (value?: string) =>
+  value
+    ? new Date(value).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    : "";
+
 export const NoticePageContents = () => {
   const { id } = useParams();
-  const notice = NOTIFICATION_LIST.find((notice) => notice.id === Number(id));
+  const notice = NOTIFICATION_LIST.find((item) => item.id === Number(id));
+
   return (
-    <div className="flex flex-col gap-4 px-24">
-      <div className="flex flex-col gap-2 max-w-[750px]">
-        <h1 className="text-2xl font-bold">{notice?.title}</h1>
-        <p className="text-sm text-gray-500">
-          {new Date(notice?.createdAt ?? "").toLocaleDateString("ko-KR", {
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-          })}
+    <article className="flex w-full flex-col gap-8">
+      <Link
+        href="/"
+        className="inline-flex w-fit items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-crimson"
+      >
+        <ArrowLeft className="size-4" /> Back to home
+      </Link>
+      <div className="flex flex-col gap-3">
+        <p className="font-mono text-xs uppercase tracking-[0.12em] text-crimson">
+          {formatDate(notice?.createdAt)}
         </p>
+        <h1 className="display text-[clamp(1.9rem,4.5vw,3.2rem)] text-foreground">
+          {notice?.title}
+        </h1>
       </div>
-      <NoticeContents notice={notice!} />
-    </div>
+      <div className="rule" />
+      {notice && <NoticeContents notice={notice} />}
+    </article>
   );
 };
