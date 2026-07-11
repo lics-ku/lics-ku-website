@@ -3,10 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import { Logo } from "@/modules/common/logo";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { DEFAULT_NAVIGATION_ITEMS } from "@/constants/navigationContents";
 import { cn } from "@/lib/utils";
 
@@ -16,7 +24,6 @@ const isActive = (pathname: string, url: string) =>
 export const HomeNavbar = () => {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -25,29 +32,15 @@ export const HomeNavbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close the mobile menu on route change.
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
-
-  // Lock scroll while the mobile overlay is open.
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [menuOpen]);
-
   return (
-    <>
-      <header
-        className={cn(
-          "fixed inset-x-0 top-0 z-50 h-16 transition-colors duration-300",
-          scrolled
-            ? "border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/65"
-            : "border-b border-transparent bg-background/0"
-        )}
-      >
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 h-16 transition-colors duration-300",
+        scrolled
+          ? "border-b border-border bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/65"
+          : "border-b border-transparent bg-background/0"
+      )}
+    >
       <nav className="mx-auto flex h-full max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link href="/" aria-label="LICS home" className="shrink-0">
           <Logo />
@@ -87,60 +80,51 @@ export const HomeNavbar = () => {
         {/* Mobile controls */}
         <div className="flex items-center gap-1 sm:hidden">
           <ThemeToggle />
-          <button
-            type="button"
-            aria-label={menuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={menuOpen}
-            onClick={() => setMenuOpen((v) => !v)}
-            className="inline-flex size-9 items-center justify-center rounded-md text-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          >
-            {menuOpen ? (
-              <X className="size-5" />
-            ) : (
-              <Menu className="size-5" />
-            )}
-          </button>
+          <Sheet>
+            <SheetTrigger asChild>
+              <button
+                type="button"
+                aria-label="Open menu"
+                className="inline-flex size-9 items-center justify-center rounded-md text-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              >
+                <Menu className="size-5" />
+              </button>
+            </SheetTrigger>
+            <SheetContent
+              side="right"
+              className="w-4/5 max-w-xs gap-0 p-0"
+            >
+              <SheetHeader className="h-16 justify-center border-b border-border px-5">
+                <SheetTitle className="text-left text-lg font-extrabold tracking-tight">
+                  Menu
+                </SheetTitle>
+              </SheetHeader>
+              <nav className="flex flex-col px-5 py-4">
+                {DEFAULT_NAVIGATION_ITEMS.map((item, i) => {
+                  const active = isActive(pathname, item.url);
+                  return (
+                    <SheetClose asChild key={item.label}>
+                      <Link
+                        href={item.url}
+                        aria-current={active ? "page" : undefined}
+                        className={cn(
+                          "flex items-baseline gap-3 border-b border-border py-4 text-2xl font-semibold tracking-tight transition-colors",
+                          active ? "text-crimson" : "text-foreground"
+                        )}
+                      >
+                        <span className="font-mono text-xs text-muted-foreground">
+                          {String(i + 1).padStart(2, "0")}
+                        </span>
+                        {item.label}
+                      </Link>
+                    </SheetClose>
+                  );
+                })}
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </nav>
-      </header>
-
-      {/* Mobile overlay menu — full-screen, opaque, above the header */}
-      {menuOpen && (
-        <div className="fixed inset-0 z-[60] flex flex-col bg-background sm:hidden">
-          <div className="flex h-16 shrink-0 items-center justify-between px-5">
-            <Logo />
-            <button
-              type="button"
-              aria-label="Close menu"
-              onClick={() => setMenuOpen(false)}
-              className="inline-flex size-9 items-center justify-center rounded-md text-foreground transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-            >
-              <X className="size-5" />
-            </button>
-          </div>
-          <div className="flex flex-col gap-1 px-5 py-4">
-            {DEFAULT_NAVIGATION_ITEMS.map((item, i) => {
-              const active = isActive(pathname, item.url);
-              return (
-                <Link
-                  key={item.label}
-                  href={item.url}
-                  aria-current={active ? "page" : undefined}
-                  className={cn(
-                    "flex items-baseline gap-3 border-b border-border py-4 text-2xl font-semibold tracking-tight transition-colors",
-                    active ? "text-crimson" : "text-foreground"
-                  )}
-                >
-                  <span className="font-mono text-xs text-muted-foreground">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  {item.label}
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      )}
-    </>
+    </header>
   );
 };

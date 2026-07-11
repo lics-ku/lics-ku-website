@@ -11,6 +11,9 @@ const formatDate = (value: string) =>
     year: "numeric",
     month: "short",
     day: "2-digit",
+    // Date-only strings are parsed as UTC midnight; pin the zone so server and
+    // client render identically (no off-by-one, no hydration mismatch).
+    timeZone: "UTC",
   });
 
 export const NotificationSection = () => {

@@ -23,9 +23,7 @@ export function HeroMedia({ videoSrc }: { videoSrc?: string }) {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    const reduce = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
+    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
     let width = 0;
     let height = 0;
@@ -109,7 +107,7 @@ export function HeroMedia({ videoSrc }: { videoSrc?: string }) {
           const base = (1 - d / LINK_DIST) * 0.16;
           const mx = (a.x + b.x) / 2;
           const my = (a.y + b.y) / 2;
-          const boost = reduce ? 0 : wavefrontBoost(mx, my, now);
+          const boost = motionQuery.matches ? 0 : wavefrontBoost(mx, my, now);
           ctx.strokeStyle = boost > 0.02
             ? `rgba(${crimsonRGB}, ${(base + boost * 0.7).toFixed(3)})`
             : `rgba(${inkRGB}, ${base.toFixed(3)})`;
@@ -123,7 +121,7 @@ export function HeroMedia({ videoSrc }: { videoSrc?: string }) {
 
       // Nodes.
       for (const n of nodes) {
-        const boost = reduce ? 0 : wavefrontBoost(n.x, n.y, now);
+        const boost = motionQuery.matches ? 0 : wavefrontBoost(n.x, n.y, now);
         const rad = 1.5 + boost * 2.4;
         ctx.beginPath();
         ctx.arc(n.x, n.y, rad, 0, Math.PI * 2);
@@ -140,26 +138,15 @@ export function HeroMedia({ videoSrc }: { videoSrc?: string }) {
       );
     };
 
-    readColors();
-    resize();
-
-    if (reduce) {
-      // Single static frame — no loop, no wave animation.
-      draw(0);
-      return;
-    }
-
     let raf = 0;
     let last = 0;
     let elapsed = 0;
     let nextPulse = 600;
+    let running = false;
 
     const loop = (t: number) => {
+      if (!running) return;
       raf = requestAnimationFrame(loop);
-      if (document.hidden) {
-        last = t;
-        return;
-      }
       const dt = last ? t - last : 16;
       last = t;
       elapsed += dt;
@@ -172,19 +159,58 @@ export function HeroMedia({ videoSrc }: { videoSrc?: string }) {
       }
       draw(elapsed);
     };
-    raf = requestAnimationFrame(loop);
 
-    const onResize = () => resize();
+    const startLoop = () => {
+      if (running) return;
+      running = true;
+      last = 0;
+      raf = requestAnimationFrame(loop);
+    };
+
+    const stopLoop = () => {
+      running = false;
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+    };
+
+    // Play only when motion is allowed and the tab is visible.
+    const sync = () => {
+      if (motionQuery.matches) {
+        stopLoop();
+        pulses = [];
+        draw(elapsed);
+      } else if (!document.hidden) {
+        startLoop();
+      } else {
+        stopLoop();
+      }
+    };
+
+    readColors();
+    resize();
+    sync();
+
+    const onResize = () => {
+      resize();
+      if (!running) draw(elapsed);
+    };
     window.addEventListener("resize", onResize);
-    const observer = new MutationObserver(readColors);
+    document.addEventListener("visibilitychange", sync);
+    motionQuery.addEventListener("change", sync);
+    const observer = new MutationObserver(() => {
+      readColors();
+      if (!running) draw(elapsed);
+    });
     observer.observe(document.documentElement, {
       attributes: true,
       attributeFilter: ["class"],
     });
 
     return () => {
-      cancelAnimationFrame(raf);
+      stopLoop();
       window.removeEventListener("resize", onResize);
+      document.removeEventListener("visibilitychange", sync);
+      motionQuery.removeEventListener("change", sync);
       observer.disconnect();
     };
   }, [videoSrc]);

@@ -37,13 +37,13 @@ export const Footer = () => {
             <p className="eyebrow">Contact</p>
             <dl className="flex flex-col gap-1.5 text-sm text-muted-foreground">
               <div className="flex gap-2">
-                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground/70">
+                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
                   Tel
                 </dt>
                 <dd>{CONTACT.tel}</dd>
               </div>
               <div className="flex gap-2">
-                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground/70">
+                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
                   Mail
                 </dt>
                 <dd>
@@ -56,7 +56,7 @@ export const Footer = () => {
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground/70">
+                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
                   Lab
                 </dt>
                 <dd>
@@ -66,7 +66,7 @@ export const Footer = () => {
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground/70">
+                <dt className="w-10 shrink-0 font-mono text-xs text-muted-foreground">
                   Room
                 </dt>
                 <dd>{CONTACT.office}</dd>
@@ -97,7 +97,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} LICS, Korea University. All rights
             reserved.
           </p>
-          <p className="font-mono text-[0.68rem] tracking-[0.15em] text-muted-foreground/70">
+          <p className="font-mono text-[0.68rem] tracking-[0.15em] text-muted-foreground">
             INFORMATICS · COMMUNICATIONS · SYSTEMS
           </p>
         </div>

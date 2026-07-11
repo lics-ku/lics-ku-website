@@ -134,9 +134,7 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
                   <span
                     className={cn(
                       "font-mono text-xs",
-                      active
-                        ? "text-crimson-foreground/80"
-                        : "text-muted-foreground/70"
+                      active ? "text-crimson-foreground" : "text-muted-foreground"
                     )}
                   >
                     {counts[f.value] ?? 0}
@@ -184,7 +182,7 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
                         </p>
                       )}
                       {e.meta && (
-                        <p className="text-sm italic text-muted-foreground/90">
+                        <p className="text-sm italic text-muted-foreground">
                           {e.meta}
                         </p>
                       )}

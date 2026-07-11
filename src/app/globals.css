@@ -69,17 +69,17 @@
   --secondary: oklch(0.945 0.008 80);
   --secondary-foreground: oklch(0.3 0.01 52);
   --muted: oklch(0.955 0.006 82);
-  --muted-foreground: oklch(0.505 0.012 58);
+  --muted-foreground: oklch(0.448 0.014 58);
   --accent: oklch(0.94 0.012 68);
   --accent-foreground: oklch(0.3 0.02 40);
   --destructive: oklch(0.55 0.2 27);
 
   --border: oklch(0.9 0.008 74);
   --input: oklch(0.9 0.008 74);
-  --ring: oklch(0.47 0.15 19);
+  --ring: oklch(0.45 0.155 20);
 
-  /* Korea University heritage crimson — the single accent */
-  --crimson: oklch(0.47 0.152 19);
+  /* Korea University heritage crimson — the single accent (kept ≥4.5:1 as text) */
+  --crimson: oklch(0.448 0.155 20);
   --crimson-foreground: oklch(0.985 0.006 83);
   --crimson-soft: oklch(0.93 0.035 25);
 

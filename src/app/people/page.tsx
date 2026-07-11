@@ -19,7 +19,7 @@ const Timeline = ({ items }: { items: TimelineItem[] }) => (
         <span className="font-mono text-xs tracking-wide text-crimson">
           {item.date}
         </span>
-        <span className="text-sm leading-relaxed text-foreground/85">
+        <span className="text-sm leading-relaxed text-foreground">
           {item.title}
         </span>
       </li>
@@ -53,7 +53,7 @@ const PeoplePage = () => {
             </p>
           </div>
 
-          <p className="max-w-2xl text-base leading-relaxed text-foreground/80">
+          <p className="max-w-2xl text-base leading-relaxed text-foreground">
             Prof. Lee leads LICS, working across communications, learning,
             networking, optimization, control, signal processing, and system
             theory — with applications spanning information systems, materials,

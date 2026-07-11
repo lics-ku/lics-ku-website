@@ -60,7 +60,7 @@ export const ResearchAreaCard = ({
         <p className="line-clamp-2 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
           {research.description}
         </p>
-        <span className="mt-auto inline-flex items-center gap-1 pt-3 text-sm font-medium text-foreground/70 transition-colors group-hover:text-crimson">
+        <span className="mt-auto inline-flex items-center gap-1 pt-3 text-sm font-medium text-foreground transition-colors group-hover:text-crimson">
           Read more
           <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </span>

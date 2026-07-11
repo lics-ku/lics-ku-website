@@ -33,7 +33,7 @@ export const PeopleCtaSection = () => {
               </p>
               <Link
                 href="/people"
-                className="mt-3 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground/70 transition-colors hover:text-crimson"
+                className="mt-3 inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-crimson"
               >
                 Meet the group
                 <ArrowRight className="size-4 transition-transform" />

@@ -48,7 +48,7 @@ const ContactPage = () => {
                         {line}
                       </span>
                     ))}
-                    <span className="mt-1 block text-foreground/80">
+                    <span className="mt-1 block text-foreground">
                       {CONTACT.office}
                     </span>
                   </dd>
@@ -97,7 +97,7 @@ const ContactPage = () => {
               href={mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground/70 transition-colors hover:text-crimson"
+              className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-crimson"
             >
               View on Google Maps
               <ArrowRight className="size-4" />

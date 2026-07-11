@@ -12,7 +12,7 @@ export const NoticeContents = ({ notice }: { notice: Notification }) => {
           {notice.subtitle}
         </p>
       )}
-      <p className="whitespace-pre-line text-base leading-[1.85] text-foreground/80">
+      <p className="whitespace-pre-line text-base leading-[1.85] text-foreground">
         {notice.description}
       </p>
     </div>
