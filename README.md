@@ -67,7 +67,7 @@ Alumni는 다른 파일에서 관리하고 있어요. (`data/people/alumnis`)
 학생 이미지 파일을 students -> alumni로 옮겨주면 추후 관리하기 용이합니다.
 에를 들어 홍길동이 학생에서 alumni가 되었다면,
 
-- `public/people/students` -> `data/people/alumni` 로 옮겨주세요
+- `public/people/students` -> `public/people/alumni` 로 옮겨주세요
 
 Alumni 양식은 조금 다릅니다. email, github, linkedin 등이 없어요.
 대표 사이트 하나만 website에 등록할 수 있습니다. 필수는 아닙니다.
@@ -115,7 +115,7 @@ Alumni 양식은 조금 다릅니다. email, github, linkedin 등이 없어요.
 우측에는 **주요공지**가 있습니다. 
 
 주로 모집공고에 사용되겠지만 내용은 자유롭게 변경이 가능해요.
-endedAt 기준으로 노출되니, 쭉 올려두고 싶다면 2099년으로 설정해두면 됩니다.  
+`MainAnnouncement.ts`의 `endDate` 기준으로 노출되니, 쭉 올려두고 싶다면 2099년으로 설정해두면 됩니다.  
 클릭 시 열리는 팝업은 공지사항 팝업입니다.
 
 ✅ 공지사항에 부여된 id를 `MainAnnouncement`의 `noticeId에` 넣어주세요! 
@@ -160,11 +160,79 @@ research는 ResearchList에 적혀진 대로 정렬되어 보여집니다.
 
 ### 4. Publications 수정 방법
 
-- conference: `/data/publications/conferences.ts`
-- patents:  `/data/publications/patents.ts`
-- publicationContents:  `/data/publications/publicationContents.ts`
+⚠️ 리디자인 이후로 방식이 바뀌었어요! 더 이상 TS 배열(`conferences.ts`, `patents.ts` 등)을 손으로 고치지 않습니다.
 
-에 배열로 존재해요. 각 배열의 마지막 항목에 추가하면 됩니다.
+- 실제 데이터: `data/publications/publications.json` (논문/특허), `data/publications/authors.json` (저자 목록)
+- 매달 1일, 서버가 자동으로 OpenAlex(공개 학술 DB)에서 우리 연구실 관련 신규 논문을 찾아 `pending` 상태로 Pull Request(PR)를 만들어줘요.
+- 사람이 할 일은 그 PR에서 논문이 맞는지 확인하고 `pending` → `verified`로 바꾼 뒤 머지하는 것뿐입니다.
+- 옛날 논문을 누락했거나, 저자를 새로 등록해야 하거나, 자동 수집이 실패했을 때 복구하는 방법까지 전부 **[`docs/PUBLICATIONS.md`](docs/PUBLICATIONS.md)** 에 정리되어 있어요. 논문 관련 작업은 이 문서를 따라주세요.
+- 참고로 `conferences.ts` / `patents.ts` / `publicationContent.ts`는 예전 데이터로, 혹시 `publications.json`이 깨지더라도 사이트가 자동으로 이 레거시 데이터를 보여주는 안전장치 용도로만 남아있어요. 이제 이 파일들을 직접 고칠 필요는 없습니다.
+
+---
+
+### 5. 연락처 / 주소 수정하는 방법
+
+연락처 정보(전화번호, 팩스, 이메일, 주소, 사무실 호실 등)는 **`src/constants/contact.ts`** 한 곳에서만 관리돼요. 사이트 하단 Footer와 `/contact` 페이지가 전부 이 파일을 읽어서 보여주기 때문에, 여기 값만 고치면 사이트 전체에 반영됩니다.
+
+```ts
+export const CONTACT = {
+  labName: "Lab for Informatics, Communications, and Systems",
+  professor: "Prof. Sang Hyun Lee",
+  school: "School of Electrical Engineering, Korea University",
+  office: "Engineering Building, Room 407",
+  tel: "+82-2-3290-3218",
+  fax: "+82-2-921-0544",
+  professorEmail: "sanghyunlee@korea.ac.kr",
+  labEmail: "lics@korea.ac.kr",
+  addressLines: [...],
+  mapQuery: "Korea University Engineering Building Seoul",
+};
+```
+
+값 하나 바꾸고 로컬에서 `/contact` 페이지랑 Footer만 확인하면 끝이에요.
+
+---
+
+### 6. 메인 화면(히어로) 영상/이미지 교체하는 방법
+
+첫 화면(홈 히어로 섹션)은 기본적으로 코드로 그려지는 움직이는 그래픽(신호가 퍼지는 네트워크 애니메이션)이 나와요. 나중에 연구실 대표 영상이나 이미지가 준비되면 코드 몇 줄만 바꿔서 교체할 수 있게 만들어뒀습니다.
+
+- 히어로 영상을 그려주는 컴포넌트: `src/modules/home/_components/HeroMedia.tsx` — `videoSrc` prop을 받으면 자동 애니메이션 대신 그 영상을 재생합니다.
+- 실제로 히어로에 컴포넌트를 배치하는 곳: `src/modules/home/MainHeroSection.tsx`
+
+교체 방법:
+
+1. 영상 파일(mp4/webm 등)을 `public` 폴더에 넣습니다. 예: `public/hero.webm`
+2. `src/modules/home/MainHeroSection.tsx`에서 아래처럼 `videoSrc`를 넘겨주세요.
+
+```tsx
+<HeroMedia videoSrc="/hero.webm" />
+```
+
+이게 끝이에요. `videoSrc`를 안 넘기면 원래의 자동 애니메이션이 그대로 나옵니다.
+
+---
+
+### 7. 새 페이지: `/contact`
+
+문의/오시는 길 페이지가 새로 생겼어요 (`src/app/contact/page.tsx`). 주소, 전화, 팩스, 이메일, 대학원 지원 안내가 여기 담겨 있고, 이 페이지에 뜨는 연락처 정보도 위 5번의 `src/constants/contact.ts`를 그대로 읽어옵니다. 즉, 연락처를 바꾸고 싶으면 이 페이지가 아니라 `contact.ts`만 고치면 됩니다.
+
+---
+
+### 8. 배포가 잘못됐을 때 (복구 방법)
+
+- 배포 방식은 그대로예요: main 브랜치(혹은 배포 대상 브랜치)에 push하면 Vercel이 자동으로 빌드/배포합니다.
+- 배포 후 화면이 이상하거나 에러가 난다면, 가장 안전한 방법은 **문제가 생기기 전 커밋으로 되돌리는 것**이에요.
+
+```js
+git log // 이전 커밋들을 확인
+git revert <되돌리고 싶은 커밋의 해시> // 그 커밋의 변경사항만 취소하는 새 커밋을 만듦
+git push
+```
+
+  `git revert`는 히스토리를 지우지 않고 "취소하는 커밋"을 새로 추가하는 방식이라 안전해요.
+
+- 참고로 출판물 데이터(`data/publications/publications.json`)가 실수로 깨지거나 형식이 잘못돼도, 사이트가 다운되지 않고 예전 레거시 목록으로 자동 대체되어 보여집니다. 그래도 원인 파악과 복구는 [`docs/PUBLICATIONS.md`](docs/PUBLICATIONS.md)의 "장애 복구" 섹션을 참고해주세요.
 
 ---
 > 궁금한점이나 막히는 부분 있다면 언제든 아래 연락처로 문의주세요!
