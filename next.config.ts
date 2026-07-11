@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // publications.json is read at request time via fs; make sure Vercel's
+  // serverless bundle includes it even when no page statically imports it.
+  outputFileTracingIncludes: {
+    "/publications": ["./data/publications/publications.json"],
+  },
   images: {
     remotePatterns: [
       {
