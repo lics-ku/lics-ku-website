@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Hide the Next.js dev-tools overlay (route info / Turbopack / preferences)
+  // that renders in the bottom-left corner during `next dev`.
+  devIndicators: false,
   // publications.json is read at request time via fs; make sure Vercel's
   // serverless bundle includes it even when no page statically imports it.
   outputFileTracingIncludes: {
