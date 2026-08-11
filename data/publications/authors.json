@@ -1,7 +1,9 @@
 [
   {
     "name": "Sang Hyun Lee",
-    "openAlexAuthorId": "A5100460354",
+    "openAlexAuthorIds": ["A5100460354"],
+    "secondaryOpenAlexAuthorIds": ["A5100460359"],
+    "knownDuplicateOpenAlexWorkIds": ["W2749129638"],
     "orcid": "0000-0001-5385-2061",
     "institutionId": "I197347611",
     "institutionName": "Korea University",
@@ -9,28 +11,122 @@
     "researchTitleKeywords": [
       "wireless",
       "communication",
-      "network",
-      "localization",
+      "network optimization",
+      "network management",
+      "sensor network",
       "internet of things",
       "iot",
+      "localization",
+      "positioning",
+      "v2v",
+      "link adaptation",
+      "resource management",
+      "resource allocation",
       "vehicular",
       "offloading",
       "visible light",
-      "optical",
+      "optical wireless",
       "edge computing",
       "cellular",
       "noma",
-      "signal",
-      "coding",
       "spectrum",
-      "mobile"
+      "message passing",
+      "message-passing",
+      "interconnection network",
+      "distributed optimization",
+      "electrical conductivity",
+      "electrical resistivity",
+      "nanocomposite",
+      "zebrafish",
+      "rheotactic",
+      "biotelemetry",
+      "uav communication",
+      "ott"
+    ],
+    "researchTopicKeywords": [
+      "wireless",
+      "communication",
+      "network coding",
+      "software defined networks",
+      "software-defined networks",
+      "mimo",
+      "localization",
+      "positioning",
+      "internet of things",
+      "signal processing",
+      "error correcting",
+      "interconnection networks",
+      "multi objective optimization",
+      "multi-objective optimization",
+      "conducting polymers",
+      "electrical conductivity",
+      "nanocomposite",
+      "zebrafish"
+    ],
+    "excludedTopicKeywords": [
+      "astronomy",
+      "astrophysics",
+      "dark energy",
+      "stellar",
+      "galactic",
+      "horticultural",
+      "agriculture",
+      "food science",
+      "insect science",
+      "epilepsy",
+      "cytomegalovirus",
+      "anesthesia",
+      "immunotherapy",
+      "dermatology",
+      "genomics and phylogenetic",
+      "religion",
+      "religious studies",
+      "theology",
+      "cultural heritage",
+      "machine learning in materials science",
+      "quantum dots",
+      "sports gender and society"
     ],
     "identification": {
-      "checkedAt": "2026-07-11",
-      "method": "OpenAlex autocomplete 후보의 저작 제목을 레거시 제목과 정규화 비교하고, Korea University 소속 및 ORCID를 함께 대조",
-      "candidateEndpoint": "https://api.openalex.org/autocomplete/authors?q=Sang%20Hyun%20Lee",
-      "candidateWorksFetched": 160,
-      "legacyTitleMatches": 55
+      "checkedAt": "2026-08-11",
+      "method": "OpenAlex author metadata의 ORCID·소속·topics를 확인하고, 각 후보의 전체 works를 기존 verified 제목 및 공저자와 대조",
+      "targetOrcidEndpoint": "https://api.openalex.org/authors?filter=orcid:0000-0001-5385-2061",
+      "knownDuplicates": [
+        {
+          "workId": "W2749129638",
+          "evidence": "legacy:journal-038과 저자·연도·venue가 같은 논문의 일본어 번역 메타데이터"
+        }
+      ],
+      "candidates": [
+        {
+          "authorId": "A5100460354",
+          "profileWorksCount": 166,
+          "worksFetched": 161,
+          "orcid": "0000-0001-5385-2061",
+          "lastKnownInstitution": "Korea University",
+          "verifiedTitleMatches": 76,
+          "decision": "primary",
+          "evidence": "목표 ORCID 정확히 일치, 기존 verified 제목 76개 일치. 동명이인 저작이 병합되어 있어 work별 다중 신호 판정 필수"
+        },
+        {
+          "authorId": "A5100460359",
+          "profileWorksCount": 848,
+          "worksFetched": 845,
+          "orcid": "0000-0002-2246-7440",
+          "verifiedTitleMatches": 0,
+          "decision": "secondary-trusted-coauthor-only",
+          "evidence": "동일인 프로필은 아니지만 WINE·Q-xApp 등 LICS 저작 최소 6개가 오병합됨. 신뢰 공저자 2명 이상과 별도 보강 신호가 있는 work만 자동 검증"
+        },
+        {
+          "authorId": "A5069912906",
+          "profileWorksCount": 58,
+          "worksFetched": 58,
+          "orcid": "0000-0002-0406-7814",
+          "verifiedTitleMatches": 0,
+          "decision": "excluded",
+          "evidence": "의료·한의학 중심 프로필이며 기존 verified 공저자 및 제목 교집합이 없음"
+        }
+      ]
     }
   }
 ]

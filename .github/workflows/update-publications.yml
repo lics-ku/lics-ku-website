@@ -21,21 +21,25 @@ jobs:
           cache: npm
 
       - run: npm ci
+      - run: npm run test:pubs
       - run: npm run update:pubs
 
-      - id: pending
+      - id: publications
         if: ${{ !cancelled() }}
         shell: bash
         run: |
           {
             echo 'body<<EOF'
-            echo '## 자동 수집된 pending 논문'
+            echo '## 자동 분류된 OpenAlex 논문'
             echo
             git diff --unified=0 -- data/publications/publications.json |
-              grep '^+      "title":' |
-              sed -E 's/^\+      "title": "(.*)",$/- \1/' || true
+              grep -E '^\+      "(title|status)":' |
+              sed -E \
+                -e 's/^\+      "title": "(.*)",$/- \1/' \
+                -e 's/^\+      "status": "(.*)",$/  - 자동 판정: \1/' || true
             echo
-            echo '운영자는 각 항목을 확인한 뒤 `status`를 `verified`로 변경하고 이 PR을 머지하세요.'
+            echo '`verified`는 강한 다중 신호로 자동 승인된 항목이므로 표본 확인합니다.'
+            echo '`pending`은 원문을 확인해 맞으면 `verified`로 바꾸고, 무관하면 항목 전체를 삭제합니다.'
             echo 'EOF'
           } >> "$GITHUB_OUTPUT"
 
@@ -43,7 +47,7 @@ jobs:
         with:
           branch: automation/update-publications
           delete-branch: true
-          commit-message: "chore(publications): add pending OpenAlex works"
-          title: "chore(publications): review pending OpenAlex works"
-          body: ${{ steps.pending.outputs.body }}
+          commit-message: "chore(publications): add classified OpenAlex works"
+          title: "chore(publications): review classified OpenAlex works"
+          body: ${{ steps.publications.outputs.body }}
           labels: publications, automated
