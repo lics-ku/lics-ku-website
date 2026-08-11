@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 
 import { Logo } from "@/modules/common/logo";
+import { ScrollProgress } from "@/components/ScrollProgress";
 import { ThemeToggle } from "@/components/theme/ThemeToggle";
 import {
   Sheet,
@@ -41,6 +42,7 @@ export const HomeNavbar = () => {
           : "border-b border-transparent bg-background/0"
       )}
     >
+      <ScrollProgress />
       <nav className="mx-auto flex h-full max-w-7xl items-center justify-between px-5 sm:px-8">
         <Link href="/" aria-label="LICS home" className="shrink-0">
           <Logo />

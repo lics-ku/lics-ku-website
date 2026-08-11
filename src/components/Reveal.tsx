@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
 
+export type RevealVariant = "rise" | "fade" | "scale" | "words";
+
 /**
  * Scroll-reveal wrapper. Toggles [data-visible] via IntersectionObserver so the
  * CSS in globals.css can fade/translate content in. Reduced-motion users get the
@@ -10,11 +12,13 @@ import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
 export function Reveal({
   children,
   delay = 0,
+  variant = "rise",
   className,
   style,
 }: {
   children: ReactNode;
   delay?: number;
+  variant?: RevealVariant;
   className?: string;
   style?: CSSProperties;
 }) {
@@ -34,6 +38,11 @@ export function Reveal({
 
     const reveal = () => el.setAttribute("data-visible", "true");
 
+    if (!("IntersectionObserver" in window)) {
+      reveal();
+      return;
+    }
+
     const io = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -47,22 +56,18 @@ export function Reveal({
     );
     io.observe(el);
 
-    // Safety net: never leave content stuck hidden if the observer never fires
-    // (odd scroll timing, virtualized capture, background tab, etc.).
-    const fallback = window.setTimeout(reveal, 1600);
-
     return () => {
       io.disconnect();
-      window.clearTimeout(fallback);
     };
   }, []);
 
   return (
     <div
       ref={ref}
-      data-reveal
+      data-reveal={variant}
       className={className}
       style={{ ["--reveal-delay" as string]: `${delay}ms`, ...style }}
+      onFocusCapture={() => ref.current?.setAttribute("data-visible", "true")}
     >
       {children}
     </div>
