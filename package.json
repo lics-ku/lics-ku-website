@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test:pubs": "tsx --test scripts/publication-matching.test.ts scripts/update-publications.test.ts",
     "update:pubs": "tsx scripts/update-publications.ts"
   },
   "dependencies": {

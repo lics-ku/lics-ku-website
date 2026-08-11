@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T11:19:21.105Z",
+  "updatedAt": "2026-08-11T13:11:43.047Z",
   "papers": [
     {
       "id": "legacy:book-chapter-001",
@@ -1679,6 +1679,409 @@
       "venue": "Telecommunications Policy",
       "doi": "10.1016/j.telpol.2025.102931",
       "url": "https://doi.org/10.1016/j.telpol.2025.102931",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/globecom59602.2025.11431979",
+      "type": "conference",
+      "title": "Probabilistic Representation for Robust Link Adaptation in Deep Reinforcement Learning-based 5G Systems",
+      "authors": [
+        "Juhwan Song",
+        "Yujin Nam",
+        "Minsuk Choi",
+        "Sang Hyun Lee",
+        "Jinguk Jeong",
+        "Seowoo Jang"
+      ],
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1109/globecom59602.2025.11431979",
+      "url": "https://doi.org/10.1109/globecom59602.2025.11431979",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2509.07492",
+      "type": "journal",
+      "title": "Constraint-Compliant Network Optimization through Large Language Models",
+      "authors": [
+        "Song, Youngjin",
+        "Wookjin Lee",
+        "Hong Ki Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2509.07492",
+      "url": "http://arxiv.org/abs/2509.07492",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/mcom.001.2300101",
+      "type": "journal",
+      "title": "A Node-Cooperative Universal Framework for Wireless Network Management Automation",
+      "authors": [
+        "Sang Hyun Lee",
+        "Hongju Lee",
+        "Sunho Kim",
+        "Hoon Lee",
+        "Mérouane Debbah",
+        "Inkyu Lee"
+      ],
+      "year": 2024,
+      "venue": "IEEE Communications Magazine",
+      "doi": "10.1109/mcom.001.2300101",
+      "url": "https://doi.org/10.1109/mcom.001.2300101",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1002/pc.27967",
+      "type": "journal",
+      "title": "Analytical model for the electrical conductivity of the hybrid nanocomposite comprising conducting nanowires and insulating particulate fillers",
+      "authors": [
+        "Jungmin Lee",
+        "Sang Hyun Lee",
+        "Jinyoung Hwang"
+      ],
+      "year": 2023,
+      "venue": "Polymer Composites",
+      "doi": "10.1002/pc.27967",
+      "url": "https://doi.org/10.1002/pc.27967",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1016/j.eswa.2023.121496",
+      "type": "journal",
+      "title": "A comprehensive characterizations of zebrafish rheotactic behaviors and its application to otoprotective drug screening",
+      "authors": [
+        "Eun‐Jung Han",
+        "Yun Jae Choi",
+        "Saemi Park",
+        "Yoon Chan Rah",
+        "Hae‐Chul Park",
+        "Sang Hyun Lee",
+        "June Choi"
+      ],
+      "year": 2023,
+      "venue": "Expert Systems with Applications",
+      "doi": "10.1016/j.eswa.2023.121496",
+      "url": "https://doi.org/10.1016/j.eswa.2023.121496",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/ictc55196.2022.9952582",
+      "type": "conference",
+      "title": "3D Multi-path Geometry Localization using Generalized Approximate Message Passing",
+      "authors": [
+        "Tae‐Woo Kim",
+        "Sang Hyun Lee",
+        "Dong Ku Kim"
+      ],
+      "year": 2022,
+      "venue": "2022 13th International Conference on Information and Communication Technology Convergence (ICTC)",
+      "doi": "10.1109/ictc55196.2022.9952582",
+      "url": "https://doi.org/10.1109/ictc55196.2022.9952582",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/twc.2022.3197843",
+      "type": "journal",
+      "title": "Message-Passing Based User Association and Bandwidth Allocation in HetNets With Wireless Backhaul",
+      "authors": [
+        "Hongju Lee",
+        "Junhee Park",
+        "Sang Hyun Lee",
+        "Inkyu Lee"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "doi": "10.1109/twc.2022.3197843",
+      "url": "https://doi.org/10.1109/twc.2022.3197843",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/mnet.105.2100450",
+      "type": "journal",
+      "title": "Artificial Intelligence Meets Autonomy in Wireless Networks: A Distributed Learning Approach",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2022,
+      "venue": "IEEE Network",
+      "doi": "10.1109/mnet.105.2100450",
+      "url": "https://doi.org/10.1109/mnet.105.2100450",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/iccworkshops53468.2022.9814461",
+      "type": "conference",
+      "title": "Learning Multi-Objective Network Optimizations",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2022,
+      "venue": "2022 IEEE International Conference on Communications Workshops (ICC Workshops)",
+      "doi": "10.1109/iccworkshops53468.2022.9814461",
+      "url": "https://doi.org/10.1109/iccworkshops53468.2022.9814461",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-1536009/v1",
+      "type": "journal",
+      "title": "Topological characterization for the geometric origin of transition in electrical conductivity for hybrid nanocomposites",
+      "authors": [
+        "Jungmin Lee",
+        "Sang Hyun Lee",
+        "Jinyoung Hwang"
+      ],
+      "year": 2022,
+      "venue": "Research Square",
+      "doi": "10.21203/rs.3.rs-1536009/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-1536009/v1",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/jiot.2022.3150747",
+      "type": "journal",
+      "title": "MOSAIC: Multiobjective Optimization Strategy for AI-Aided Internet of Things Communications",
+      "authors": [
+        "Hoon Lee",
+        "Sang Hyun Lee",
+        "Tony Q. S. Quek"
+      ],
+      "year": 2022,
+      "venue": "IEEE Internet of Things Journal",
+      "doi": "10.1109/jiot.2022.3150747",
+      "url": "https://doi.org/10.1109/jiot.2022.3150747",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/tits.2020.3032645",
+      "type": "journal",
+      "title": "Cooperative Localization With Constraint Satisfaction Problem in 5G Vehicular Networks",
+      "authors": [
+        "Hyowon Kim",
+        "Sang Hyun Lee",
+        "Sunwoo Kim"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "10.1109/tits.2020.3032645",
+      "url": "https://doi.org/10.1109/tits.2020.3032645",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/iceic49074.2020.9051223",
+      "type": "conference",
+      "title": "A unified modeling framework for explaining the electrical resistivity trend of composites with nanostructures",
+      "authors": [
+        "Jinyoung Hwang",
+        "Jungmin Lee",
+        "Yesol Yun",
+        "Sang Hyun Lee",
+        "Sung Hoon Park"
+      ],
+      "year": 2020,
+      "venue": "2020 International Conference on Electronics, Information, and Communication (ICEIC)",
+      "doi": "10.1109/iceic49074.2020.9051223",
+      "url": "https://doi.org/10.1109/iceic49074.2020.9051223",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.7840/kics.2019.44.12.2288",
+      "type": "journal",
+      "title": "Repetitive Measurement Update and Compensation for Enhancement of V2X Network Localization",
+      "authors": [
+        "Hong Ki Kim",
+        "Minji Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2019,
+      "venue": "한국통신학회논문지",
+      "doi": "10.7840/kics.2019.44.12.2288",
+      "url": "https://doi.org/10.7840/kics.2019.44.12.2288",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/wcnc.2018.8377454",
+      "type": "conference",
+      "title": "Cooperative localization with distributed ADMM over 5G-based VANETs",
+      "authors": [
+        "Hyowon Kim",
+        "Sang Hyun Lee",
+        "Sunwoo Kim"
+      ],
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1109/wcnc.2018.8377454",
+      "url": "https://doi.org/10.1109/wcnc.2018.8377454",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.18178/jacn.2017.5.1.237",
+      "type": "journal",
+      "title": "Topology Controlled Channel Assignment Scheme with Power Control in MRMC Wireless Mesh Networks",
+      "authors": [
+        "Sang Hyun Lee"
+      ],
+      "year": 2017,
+      "venue": "Journal of Advances in Computer Networks",
+      "doi": "10.18178/jacn.2017.5.1.237",
+      "url": "https://doi.org/10.18178/jacn.2017.5.1.237",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "openalex:W2161843339",
+      "type": "journal",
+      "title": "On a class of distributed algorithms over networks and graphs",
+      "authors": [
+        "Sang Hyun Lee"
+      ],
+      "year": 2011,
+      "venue": "Texas ScholarWorks (Texas Digital Library)",
+      "doi": null,
+      "url": "http://hdl.handle.net/2152/ETD-UT-2011-05-3093",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/icc.2007.540",
+      "type": "conference",
+      "title": "AMAC: Traffic-Adaptive Sensor Network MAC Protocol through Variable Duty-Cycle Operations",
+      "authors": [
+        "Sang Hyun Lee",
+        "Junwoo Park",
+        "Lynn Choi"
+      ],
+      "year": 2007,
+      "venue": null,
+      "doi": "10.1109/icc.2007.540",
+      "url": "https://doi.org/10.1109/icc.2007.540",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/icce.1995.517967",
+      "type": "conference",
+      "title": "SKIP PLAY TECHNOLOGY FOR HOME-USE DIGITAL VCRs",
+      "authors": [
+        "Sang Hyun Lee",
+        "Ji-Voon Yoo",
+        "Gwi-Tae Park",
+        "Yong-Hoo Sheen",
+        "Yung-Gil Kim"
+      ],
+      "year": 2005,
+      "venue": null,
+      "doi": "10.1109/icce.1995.517967",
+      "url": "https://doi.org/10.1109/icce.1995.517967",
+      "status": "pending",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/iccworkshops67674.2025.11162380",
+      "type": "conference",
+      "title": "Q-xApp: A Quantum-Enabled Resource Management Module for Virtualized RAN Architectures",
+      "authors": [
+        "Wookjin Lee",
+        "Young‐Jin Song",
+        "Yong Hun Jang",
+        "Sang Hyun Lee"
+      ],
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1109/iccworkshops67674.2025.11162380",
+      "url": "https://doi.org/10.1109/iccworkshops67674.2025.11162380",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/ictc62082.2024.10827479",
+      "type": "conference",
+      "title": "Cooperative AI Techniques for Ocean Path Planning of Maritime Autonomous Surface Ships",
+      "authors": [
+        "Yong Hun Jang",
+        "Seung Hyun Oh",
+        "Sang Hyun Lee",
+        "Hoon Lee"
+      ],
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1109/ictc62082.2024.10827479",
+      "url": "https://doi.org/10.1109/ictc62082.2024.10827479",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.1109/ictc58733.2023.10393170",
+      "type": "conference",
+      "title": "Extraction of Motor Imagery for Operation of UAV Communication Systems",
+      "authors": [
+        "Wonyoung Kang",
+        "Yoon Ku Lee",
+        "Young‐Jin Song",
+        "Juseung Lee",
+        "Sang Hyun Lee"
+      ],
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1109/ictc58733.2023.10393170",
+      "url": "http://dx.doi.org/10.1109/ictc58733.2023.10393170",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.9728/dcs.2023.24.2.273",
+      "type": "journal",
+      "title": "Study on analyzing the pattern of content consumption through local OTT service based on the spatiotemporal context",
+      "authors": [
+        "Chulmin Lim",
+        "Yumi Jang",
+        "Hee‐Soo Kim",
+        "Sunho Kim",
+        "Sang Hyun Lee",
+        "Seongcheol Kim"
+      ],
+      "year": 2023,
+      "venue": "Journal of Digital Contents Society",
+      "doi": "10.9728/dcs.2023.24.2.273",
+      "url": "https://doi.org/10.9728/dcs.2023.24.2.273",
+      "status": "verified",
+      "source": "openalex"
+    },
+    {
+      "id": "doi:10.7840/kics.2019.44.12.2284",
+      "type": "journal",
+      "title": "Probabilistic Approach for Efficient Distributed Positioning System in V2V Networks",
+      "authors": [
+        "Minji Kim",
+        "Hong Ki Kim",
+        "Sang Hyun Lee"
+      ],
+      "year": 2019,
+      "venue": "한국통신학회논문지",
+      "doi": "10.7840/kics.2019.44.12.2284",
+      "url": "https://doi.org/10.7840/kics.2019.44.12.2284",
       "status": "verified",
       "source": "openalex"
     }
