@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { Research } from "@data/index";
+import { ResearchImage } from "@/modules/research/display/ResearchImage";
 
 /**
  * Research thrust card — used on the home highlights grid and the research
@@ -19,6 +19,9 @@ export const ResearchAreaCard = ({
   const thumbnail =
     research.resources?.find((r) => r.isThumbnail)?.url ??
     research.resources?.[0]?.url;
+  const staticThumbnail = research.resources?.find(
+    (resource) => !resource.url.toLowerCase().endsWith(".gif")
+  )?.url;
 
   return (
     <Link
@@ -29,10 +32,10 @@ export const ResearchAreaCard = ({
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-muted">
         {thumbnail ? (
-          <Image
+          <ResearchImage
             src={thumbnail}
+            reducedSrc={staticThumbnail}
             alt={research.title}
-            fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
           />
