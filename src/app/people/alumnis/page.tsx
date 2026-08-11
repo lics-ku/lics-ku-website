@@ -25,7 +25,7 @@ const AlumniGroup = ({
     </div>
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
       {alumni.map((person, idx) => (
-        <Reveal key={idx} delay={(idx % 2) * 60}>
+        <Reveal key={idx} variant="scale" delay={(idx % 2) * 60}>
           <AlumniCard alumni={person} />
         </Reveal>
       ))}

@@ -23,7 +23,7 @@ export const PeopleNavigation = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex gap-1 border-b border-border">
+    <nav className="flex max-w-full gap-1 overflow-x-auto border-b border-border">
       {TABS.map((tab) => {
         const active = tab.match(pathname);
         return (
@@ -32,7 +32,7 @@ export const PeopleNavigation = () => {
             href={tab.href}
             aria-current={active ? "page" : undefined}
             className={cn(
-              "relative px-4 py-3 text-sm font-medium transition-colors",
+              "relative shrink-0 px-4 py-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring",
               active
                 ? "text-foreground"
                 : "text-muted-foreground hover:text-foreground"

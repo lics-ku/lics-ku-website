@@ -25,7 +25,7 @@ const StudentGrid = ({
     </div>
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
       {students.map((student, idx) => (
-        <Reveal key={idx} delay={(idx % 4) * 60}>
+        <Reveal key={idx} variant="scale" delay={(idx % 4) * 60}>
           <StudentCard student={student} />
         </Reveal>
       ))}

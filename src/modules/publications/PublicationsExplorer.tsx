@@ -100,7 +100,7 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
   }, [filtered]);
 
   return (
-    <div className="mx-auto max-w-4xl px-5 py-12 sm:px-8">
+    <div className="mx-auto max-w-5xl px-5 py-12 sm:px-8">
       {/* Controls */}
       <div className="sticky top-16 z-30 -mx-5 mb-10 border-b border-border bg-background/85 px-5 py-4 backdrop-blur sm:-mx-8 sm:px-8">
         <div className="flex flex-col gap-4">
@@ -111,6 +111,7 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search title, author, or venue…"
               aria-label="Search publications"
+              aria-controls="publication-results"
               className="h-11 pl-9"
             />
           </div>
@@ -123,8 +124,9 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
                   type="button"
                   onClick={() => setFilter(f.value)}
                   aria-pressed={active}
+                  aria-controls="publication-results"
                   className={cn(
-                    "inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors",
+                    "inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
                     active
                       ? "border-crimson bg-crimson text-crimson-foreground"
                       : "border-border text-muted-foreground hover:border-crimson/40 hover:text-foreground"
@@ -143,24 +145,45 @@ export function PublicationsExplorer({ data }: { data: PublicationsData }) {
               );
             })}
           </div>
+          <p className="sr-only" role="status" aria-live="polite">
+            {filtered.length} publications shown
+          </p>
         </div>
       </div>
 
       {/* Results */}
       {filtered.length === 0 ? (
-        <p className="py-16 text-center text-muted-foreground">
+        <p
+          id="publication-results"
+          className="py-16 text-center text-muted-foreground"
+        >
           No publications match “{query}”. Try a different search.
         </p>
       ) : (
-        <div className="flex flex-col gap-14">
+        <div id="publication-results" className="flex flex-col gap-16">
           {groups.map(([year, items]) => (
-            <section key={String(year)} className="flex flex-col gap-2">
-              <div className="mb-3 flex items-baseline gap-3 border-b border-border pb-2">
-                <h2 className="display text-3xl text-foreground">
-                  {year === "undated" ? "Undated" : year}
-                </h2>
-                <span className="font-mono text-xs text-muted-foreground">
-                  {String(items.length).padStart(2, "0")}
+            <section
+              key={String(year)}
+              data-publication-year
+              className="relative grid grid-cols-1 gap-2 md:grid-cols-[116px_1fr] md:gap-8"
+            >
+              <div className="relative mb-3 border-b border-border pb-2 md:sticky md:top-52 md:mb-0 md:self-start md:border-b-0 md:pb-0">
+                <div className="flex items-baseline gap-2">
+                  <h2 className="display text-3xl text-foreground">
+                    {year === "undated" ? "Undated" : year}
+                  </h2>
+                  <span className="font-mono text-xs text-muted-foreground">
+                    {String(items.length).padStart(2, "0")}
+                  </span>
+                </div>
+                <span
+                  aria-hidden="true"
+                  className="absolute bottom-0 left-0 top-12 hidden w-px overflow-hidden bg-border md:block"
+                >
+                  <span
+                    data-publication-line-fill
+                    className="block h-full w-full origin-top bg-crimson"
+                  />
                 </span>
               </div>
               <ol className="flex flex-col">

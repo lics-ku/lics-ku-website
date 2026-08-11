@@ -27,7 +27,7 @@ const ContactPage = () => {
 
       <div className="mx-auto mt-14 grid max-w-7xl grid-cols-1 gap-6 px-5 sm:px-8 lg:grid-cols-2">
         {/* Details */}
-        <Reveal>
+        <Reveal variant="scale">
           <div className="flex h-full flex-col gap-8 rounded-2xl border border-border bg-card p-8">
             <div className="flex flex-col gap-1">
               <p className="eyebrow">Laboratory</p>
@@ -94,7 +94,7 @@ const ContactPage = () => {
               href={mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-crimson"
+              className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-crimson focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               View on Google Maps
               <ArrowRight className="size-4" />
@@ -103,7 +103,7 @@ const ContactPage = () => {
         </Reveal>
 
         {/* Prospective students */}
-        <Reveal delay={100}>
+        <Reveal variant="scale" delay={100}>
           <div className="flex h-full flex-col justify-between gap-8 rounded-2xl bg-primary p-8 text-primary-foreground">
             <div className="flex flex-col gap-4">
               <p className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-primary-foreground/70">
@@ -142,7 +142,7 @@ const ContactPage = () => {
         <Reveal>
           <Link
             href="/people"
-            className="group flex items-center justify-between gap-4 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-crimson/40"
+            className="group flex items-center justify-between gap-4 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-crimson/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             <span className="text-sm text-muted-foreground">
               Want to know who you&apos;d be working with?
