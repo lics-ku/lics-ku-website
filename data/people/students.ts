@@ -45,11 +45,13 @@ export const PHD_STUDENTS: Student[] = [
 
 export const MASTER_STUDENTS: Student[] = [
   {
-    name: "Seungui Byun",
+    image: "/people/students/seungeui-byun.jpg",
+    name: "Seungeui Byun",
     email: "shoreview01@korea.ac.kr",
   },
   {
-    name: "SeungKwan Oh",
+    image: "/people/students/seunggwan-oh.jpg",
+    name: "SeungGwan Oh",
   },
 ];
 
