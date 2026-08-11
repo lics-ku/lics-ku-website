@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 
 import { RESEARCH_LIST } from "@data/research/ResearchList";
-import { Reveal } from "@/components/Reveal";
 import { PageHeader } from "@/components/PageHeader";
-import { ResearchAreaCard } from "@/modules/research/display/ResearchAreaCard";
+import { ResearchStory } from "@/modules/research/display/ResearchStory";
 
 export const metadata: Metadata = {
   title: "Research",
@@ -20,12 +19,8 @@ const ResearchPage = () => {
         lead="Our work runs from vehicular networks and wireless supercomputing to holographic communication and quantum algorithms — unified by distributed cooperation, learning, and rigorous systems thinking."
       />
 
-      <div className="mx-auto mt-14 grid max-w-7xl grid-cols-1 gap-6 px-5 sm:grid-cols-2 sm:px-8 lg:grid-cols-3">
-        {RESEARCH_LIST.map((research, i) => (
-          <Reveal key={research.id} delay={(i % 3) * 70}>
-            <ResearchAreaCard research={research} />
-          </Reveal>
-        ))}
+      <div className="mx-auto mt-10 max-w-7xl px-5 sm:px-8">
+        <ResearchStory researches={RESEARCH_LIST} />
       </div>
     </div>
   );

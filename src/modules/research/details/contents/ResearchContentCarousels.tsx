@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 import {
@@ -11,6 +10,7 @@ import {
   CarouselContent,
   type CarouselApi,
 } from "@/components/ui/carousel";
+import { ResearchImage } from "@/modules/research/display/ResearchImage";
 import { Resource } from "@data/index";
 
 export const ResearchContentCarousels = ({
@@ -19,6 +19,9 @@ export const ResearchContentCarousels = ({
   resources: Resource[];
 }) => {
   const showNavigation = resources.length > 1;
+  const staticFallback = resources.find(
+    (resource) => !resource.url.toLowerCase().endsWith(".gif")
+  )?.url;
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
@@ -43,13 +46,13 @@ export const ResearchContentCarousels = ({
           {resources.map((resource, index) => (
             <CarouselItem key={index}>
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl border border-border bg-muted">
-                <Image
+                <ResearchImage
                   src={resource.url}
+                  reducedSrc={staticFallback}
                   alt={resource.description ?? "Research figure"}
-                  fill
                   sizes="(max-width: 900px) 100vw, 900px"
                   className="object-contain"
-                  unoptimized={resource.url.endsWith(".gif")}
+                  priority={index === 0}
                 />
               </div>
             </CarouselItem>

@@ -1,12 +1,19 @@
 import { RESEARCH_LIST } from "@data/research/ResearchList";
 
+import { ImpactStats } from "@/components/ImpactStats";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ResearchAreaCard } from "@/modules/research/display/ResearchAreaCard";
 
 const HIGHLIGHT_COUNT = 6;
 
-export const TopResearchSection = () => {
+export const TopResearchSection = ({
+  paperCount,
+  patentCount,
+}: {
+  paperCount: number;
+  patentCount: number;
+}) => {
   const highlights = RESEARCH_LIST.slice(0, HIGHLIGHT_COUNT);
 
   return (
@@ -18,9 +25,19 @@ export const TopResearchSection = () => {
         link={{ href: "/research", label: "All 13 areas" }}
       />
 
+      <div className="mt-10">
+        <ImpactStats
+          metrics={[
+            { value: paperCount, label: "Publications" },
+            { value: RESEARCH_LIST.length, label: "Research areas" },
+            { value: patentCount, label: "Patents" },
+          ]}
+        />
+      </div>
+
       <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {highlights.map((research, i) => (
-          <Reveal key={research.id} delay={(i % 3) * 80}>
+          <Reveal key={research.id} variant="scale" delay={(i % 3) * 80}>
             <ResearchAreaCard research={research} />
           </Reveal>
         ))}

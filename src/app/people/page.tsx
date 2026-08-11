@@ -5,12 +5,13 @@ import {
   PROFESSOR_EDUCATION,
   PROFESSOR_EXPERIENCES,
 } from "@data/people/professor";
+import { Reveal } from "@/components/Reveal";
 import { CONTACT } from "@/constants/contact";
 
 type TimelineItem = { title: string; date: string; institution: string };
 
 const Timeline = ({ items }: { items: TimelineItem[] }) => (
-  <ol className="flex flex-col">
+  <ol data-people-timeline className="flex flex-col">
     {items.map((item) => (
       <li
         key={item.title}
@@ -32,7 +33,10 @@ const PeoplePage = () => {
     <div className="flex flex-col gap-16">
       {/* Profile */}
       <section className="grid grid-cols-1 gap-10 md:grid-cols-[260px_1fr]">
-        <div className="mx-auto w-full max-w-[260px] md:mx-0">
+        <Reveal
+          variant="scale"
+          className="mx-auto w-full max-w-[260px] md:mx-0"
+        >
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-muted">
             <Image
               src="/people/professor.jpg"
@@ -42,9 +46,9 @@ const PeoplePage = () => {
               className="object-cover"
             />
           </div>
-        </div>
+        </Reveal>
 
-        <div className="flex flex-col gap-6">
+        <Reveal className="flex flex-col gap-6" delay={100}>
           <div className="flex flex-col gap-2">
             <p className="eyebrow">Principal investigator</p>
             <h2 className="display text-4xl text-foreground">Sang Hyun Lee</h2>
@@ -83,25 +87,29 @@ const PeoplePage = () => {
               {CONTACT.fax}
             </div>
           </dl>
-        </div>
+        </Reveal>
       </section>
 
       {/* Experience & Education */}
       <section className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-        <div className="flex flex-col gap-6">
-          <h3 className="text-xl font-bold tracking-tight">Experience</h3>
-          <Timeline items={PROFESSOR_EXPERIENCES} />
-        </div>
-        <div className="flex flex-col gap-6">
-          <h3 className="text-xl font-bold tracking-tight">Education</h3>
-          <Timeline
-            items={PROFESSOR_EDUCATION.map((e) => ({
-              title: `${e.title}, ${e.institution}`,
-              date: e.date,
-              institution: e.institution,
-            }))}
-          />
-        </div>
+        <Reveal>
+          <div className="flex flex-col gap-6">
+            <h3 className="text-xl font-bold tracking-tight">Experience</h3>
+            <Timeline items={PROFESSOR_EXPERIENCES} />
+          </div>
+        </Reveal>
+        <Reveal delay={100}>
+          <div className="flex flex-col gap-6">
+            <h3 className="text-xl font-bold tracking-tight">Education</h3>
+            <Timeline
+              items={PROFESSOR_EDUCATION.map((e) => ({
+                title: `${e.title}, ${e.institution}`,
+                date: e.date,
+                institution: e.institution,
+              }))}
+            />
+          </div>
+        </Reveal>
       </section>
     </div>
   );
