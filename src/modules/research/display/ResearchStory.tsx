@@ -52,28 +52,28 @@ export function ResearchStory({ researches }: { researches: Research[] }) {
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(250px,0.68fr)_minmax(0,1.32fr)] lg:gap-14">
       <aside className="hidden lg:block">
-        <div className="sticky top-24 flex min-h-[calc(100svh-7rem)] flex-col justify-between py-8">
-          <div key={active.id} data-research-active-copy>
-            <p className="eyebrow mb-5">
+        <div className="sticky top-24 grid min-h-[calc(100svh-7rem)] grid-rows-[minmax(23.375rem,80%)_auto_1fr] py-8">
+          <div key={active.id} data-research-active-copy className="self-center">
+            <p className="eyebrow mb-[clamp(0.75rem,2.2vh,1.25rem)]">
               Direction {String(activeIndex + 1).padStart(2, "0")} ·{" "}
               {String(researches.length).padStart(2, "0")}
             </p>
-            <h2 className="display text-[clamp(2rem,3.4vw,3.4rem)] text-foreground">
+            <h2 className="display text-[clamp(2rem,min(3.4vw,6.4vh),3.4rem)] text-foreground">
               {active.title}
             </h2>
             {active.subtitle && (
-              <p className="mt-5 font-mono text-xs leading-relaxed text-crimson">
+              <p className="mt-[clamp(0.75rem,2.2vh,1.25rem)] font-mono text-xs leading-relaxed text-crimson">
                 {active.subtitle}
               </p>
             )}
-            <p className="mt-5 line-clamp-6 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
+            <p className="mt-[clamp(0.75rem,2.2vh,1.25rem)] line-clamp-6 whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
               {active.description}
             </p>
             <Link
               href={`/research/${active.id}`}
               scroll={false}
               prefetch={false}
-              className="mt-7 inline-flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-crimson focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="mt-[clamp(1rem,3vh,1.75rem)] inline-flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-crimson focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               Open research area
               <ArrowUpRight className="size-4" />
@@ -82,7 +82,7 @@ export function ResearchStory({ researches }: { researches: Research[] }) {
 
           <nav
             aria-label="Research directions"
-            className="mt-8 grid grid-cols-7 gap-2"
+            className="grid grid-cols-7 gap-2"
           >
             {researches.map((research, index) => (
               <a

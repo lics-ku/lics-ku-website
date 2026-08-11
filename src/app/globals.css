@@ -390,6 +390,7 @@
   [data-publication-line-fill],
   [data-people-timeline] > li,
   [data-research-step] > *,
+  [data-reduced-poster],
   .rule-trace {
     opacity: 1 !important;
     transform: none !important;
@@ -398,5 +399,8 @@
   }
   [data-scroll-progress] {
     display: none;
+  }
+  [data-animated-research-source] {
+    visibility: hidden !important;
   }
 }
