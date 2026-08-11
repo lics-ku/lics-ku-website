@@ -77,9 +77,14 @@ export const NotificationSection = () => {
                     <h3 className="text-xl font-bold tracking-tight text-foreground">
                       {MAIN_ANNOUNCEMENT.title}
                     </h3>
-                    <p className="whitespace-pre-line text-sm leading-relaxed text-muted-foreground">
-                      {MAIN_ANNOUNCEMENT.message}
-                    </p>
+                    {MAIN_ANNOUNCEMENT.messages.map((message) => (
+                      <p
+                        key={message}
+                        className="whitespace-pre-line text-sm leading-relaxed text-muted-foreground"
+                      >
+                        {message}
+                      </p>
+                    ))}
                   </div>
                 </div>
                 <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-crimson">

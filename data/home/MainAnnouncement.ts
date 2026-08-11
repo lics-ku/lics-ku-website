@@ -1,6 +1,3 @@
-/**
- * 모집공고 등 주요 공지사항 노출 여부
- */
 export const MAIN_ANNOUNCEMENT = {
   /**
    * 노출 여부
@@ -19,8 +16,13 @@ export const MAIN_ANNOUNCEMENT = {
    */
   noticeId: 3,
   /**
-   * 공지사항 제목 및 메시지
+   * 공지사항 제목
    */
   title: "대학원생 모집 공고",
-  message: "현재 LICS 연구실에서 \n대학원생을 모집하고 있습니다.",
+  /**
+   * 공지사항 메시지
+   */
+  messages: [
+    "현재 LICS 연구실에서 \n대학원생을 모집하고 있습니다."
+  ]
 };
